@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="./signup.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body class="body">
+    <div class="hero">
+        <div class="heroholder">
+            <div class="lefthero">
+                <div class="leftimg"></div>
+            </div>
+            
+            <div class="righthero">
+                <div class="rightherologo">D~fAsH</div>
+                <h1>Sign Up</h1>
+                <p class="enterdetails">Please enter your details</p>
+                <form class="signupForm" action="#" id="registerForm" onsubmit="handleRegister(event)">
+                <input type="text" placeholder="Enter full name" class="firstinput" required id="name">
+                <input type="email" placeholder="Enter email" class="firstinput" required id="email">
+                <input type="password" placeholder="Enter password" class="firstinput" required id="password">
+                <button class="signupbutton" type="submit">SIGN UP</button>
+                <h4>OR</h4>
+
+                <button class="googlebutton"> <div class="googleimg"></div>Continue with Google</button>
+
+                <p class="toggle-link">Already have an account?<a href="signin.html" style="font-size: 14px; color: black; font-weight: bold; cursor: pointer; margin-left: 5px;">LogIn</a></p>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

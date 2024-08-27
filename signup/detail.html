@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detail Page</title>
+    <link rel="stylesheet" href="./detail.css">
+</head>
+<body class="body">
+    <div class="header1">
+        <div class="headerholder">
+            <div class="logo">DeBbY</div>
+            <nav id="nav" class="nav">
+                <ul>
+                    <li><a href="project.html">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="products.html">Product</a></li>
+                    <li><a href="detail.html">Detail</a></li>
+                </ul>
+            </nav>
+            <div class="hamburger" id="hamburger">
+               <img src="../myproject/projectimg/hamburger-menu-icon-svg-11-removebg-preview.png"/>
+            </div>
+        </div>
+    </div>
+    <div class="detailpage">
+        <div class="leftcard">
+
+        </div>
+        <div class="rightcard">
+            <div class="rightcardholder">
+                <div class="header">
+                    <p class="shirts">SHIRTS</p>
+                    <h3>Modern Smart Watch</h3>
+                    <p class="italic">D~Fash's House</p>
+                    <p class="smalltext">A well-designed shirt combines functionality, 
+                        comfort, and style. It starts with high-quality 
+                        fabric that feels great against the skin and is 
+                        durable enough for everyday wear.</p>
+                        <p class="money">#40,000</p>
+                </div>
+                <div class="buttons">
+                    <button class="minus" id="addToCart1" onclick="decreaseQty()">-</button>
+                    <p class="buttonnumber" id="number">1</p>
+                    <button class="add" id="addToCart2" onclick="increaseQty()">+</button>
+                </div>
+                <div class="addtocartdiv">
+                    <button class="addtocart">ADD TO CART</button>
+                    <button class="buynow">BUY NOW</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="footerpage">
+        <div class="footerholder">
+            <div class="firstfooter">
+                <div class="footerlogo">
+                    <div class="footerlogoimg"></div>
+                    <div class="footericons">
+                        <div class="twitter"></div>
+                        <div class="linkedin"></div>
+                        <div class="facebook"></div>
+                        <div class="instagram"></div>
+                    </div>
+                </div>
+                    <div class="exclusively">
+                        <h3>Exclusively beautiful with D~fAshion</h3>
+                        <p>Copyright @ 2024 D~fAshion</p>
+                    </div>
+                
+            </div>
+                <div class="footerproductholder"> 
+                    <div class="footerrightside">
+    
+                   
+                <div class="footerproduct">
+                    <h3 class="Product">Products</h3>
+                        <p class="products">Overview</p>
+                        <p class="products">Tutorials</p>
+                        <p class="products">Features</p>
+                        <p class="products">Tutorials</p>
+                        <p class="products">Pricing</p>
+                </div>
+    
+                <div class="footerproduct">
+                    <h3 class="Product">Company</h3>
+                        <p class="products">About Us</p>
+                        <p class="products">Careers</p>
+                        <p class="products">Press</p>
+                        <p class="products">News</p>
+                        <p class="products">Contact</p>
+                   
+                </div>
+    
+                <div class="footerproduct">
+                    <h3 class="Product">Resources</h3>
+                        <p class="products">Blog</p>
+                        <p class="products">Newsletter</p>
+                        <p class="products">Events</p>
+                        <p class="products">Help Centre</p>
+                        <p class="products">Support</p>
+                   
+                </div>
+            </div>
+        </div>
+    
+        <div class="newsletter">
+            <h3>Get Newsletter</h1>
+            <p>Get on the list and get 10% off your first order!</p>
+            <input type="email" placeholder="Enter your email">
+            <button>Subscribe Now</button>
+        </div>
+        </div>
+        </div> 
+      <script>
+        let cartItems = []
+
+        function increaseQty(){
+  const value =  parseInt(document.getElementById("number").innerHTML)
+  const newValue = value + 1
+  document.getElementById("number").innerHTML = newValue
+}
+
+function decreaseQty(){
+    const value = parseInt(document.getElementById("number").innerHTML) 
+    if (value < 2) {
+
+    }else{
+
+const newValue = value - 1
+document.getElementById("number").innerHTML = newValue
+}
+}
+      </script>
+</body>
+</html>

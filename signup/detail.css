@@ -1,0 +1,472 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  width: 100%;
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.header1 {
+  width: 100%;
+  height: 70px;
+  background-color: rgba(255, 255, 255, 0.25);
+  -webkit-backdrop-filter: blur(4px);
+  backdrop-filter: blur(10px);
+  /* border: 1px solid rgba(255,255,255,0.125); */
+  display: flex;
+  justify-content: center;
+}
+.headerholder {
+  width: 92%;
+  height: 67px;
+  /* background-color: grey; */
+  /* border-bottom: 1px solid white; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  width: 80px;
+  font-weight: bold;
+  color: #5c3421;
+}
+.nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 22px;
+}
+
+.nav ul li a {
+  color: black;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bold;
+  opacity: 1;
+  /* background-color: #c69d67; */
+  padding: 4px;
+  border-radius: 3px;
+}
+.nav ul li a:hover {
+  border-bottom: 1px solid black;
+}
+.hamburger {
+  width: 60px;
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+.hamburger img {
+  width: 100%;
+  height: 100%;
+}
+
+.detailpage {
+  background-color: #f3f1eb;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+.leftcard {
+  /* margin-top: 20px; */
+  width: 50%;
+  height: 100%;
+  background-color: #f7e9dc;
+  background-image: url(../myproject/projectimg/downloadwristwatch.png);
+  background-position: center;
+  background-size: cover;
+
+  background-repeat: no-repeat;
+}
+.rightcard {
+  /* margin-top: 20px; */
+  width: 50%;
+  height: 100%;
+  background-color: #ad7949;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.rightcardholder {
+  width: 500px;
+}
+.header {
+  width: 380px;
+}
+.shirts {
+  font-size: 15px;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+.header h3 {
+  font-size: 38px;
+  margin-bottom: 5px;
+}
+.italic {
+  font-size: 18px;
+  margin-bottom: 15px;
+  font-style: italic;
+}
+.smalltext {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 13px;
+}
+.money {
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 12px;
+  padding-bottom: 15px;
+}
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  margin-bottom: 40px;
+}
+.minus {
+  width: 35px;
+  height: 30px;
+  font-size: 15px;
+  border-radius: 3px;
+  font-weight: bold;
+  background-color: white;
+  color: #431f11;
+  border: 1px solid black;
+  border: none;
+}
+.add {
+  width: 35px;
+  height: 30px;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: #431f11;
+  border-radius: 3px;
+  color: white;
+  border: none;
+}
+.buttonnumber {
+  font-size: 14px;
+  font-weight: bold;
+}
+.addtocartdiv {
+  width: 400px;
+}
+.addtocart {
+  width: 170px;
+  height: 50px;
+  border-radius: 5px;
+  border: none;
+  font-size: 12px;
+  font-weight: bolder;
+  color: #431f11;
+  background-color: white;
+}
+.buynow {
+  width: 170px;
+  height: 50px;
+  border-radius: 5px;
+  margin-left: 10px;
+  background-color: #431f11;
+  color: white;
+  border: none;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.footerpage {
+  width: 100%;
+  height: 350px;
+  /* margin-top: 35px; */
+  background-color: #d8c09c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footerholder {
+  width: 85%;
+  height: 100%;
+  /* background-color: green; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.firstfooter {
+  width: 32%;
+  height: 75%;
+  /* background-color: blue; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.footerlogo {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.footerlogoimg {
+  width: 100px;
+  height: 40px;
+  margin-bottom: 10px;
+  background-image: url(../myproject/projectimg/hand-drawn-clothing-store-logo-design_23-2149577874.avif);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.footericons {
+  width: 160px;
+  margin-top: 20px;
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: space-between;
+}
+.twitter {
+  width: 27px;
+  height: 27px;
+  border: 1px solid #643924;
+  border-radius: 5px;
+  background-image: url(../myproject/projectimg/black-twitter-logo-black-twitter-icon-twitter-symbol-free-free-vector-removebg-preview.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.linkedin {
+  width: 27px;
+  height: 27px;
+  border: 1px solid #643924;
+  border-radius: 5px;
+  background-image: url(../myproject/projectimg/6bab3017350ca04c6fa05569672bd31e.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.facebook {
+  width: 27px;
+  height: 27px;
+  border: 1px solid #643924;
+  border-radius: 5px;
+  background-image: url(../myproject/projectimg/png-transparent-crescent-arts-centre-facebook-inc-computer-icons-black-facebook-thumbnail-removebg-preview.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.instagram {
+  width: 27px;
+  height: 27px;
+  border: 1px solid #643924;
+  border-radius: 4px;
+  background-image: url(../myproject/projectimg/png-transparent-instagram-social-media-instagram-black-social-social-media-logo-icon-removebg-preview.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.exclusively {
+  width: 100%;
+}
+.exclusively h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+.exclusively p {
+  font-size: 16px;
+  font-weight: 500;
+}
+.footerproductholder {
+  width: 38%;
+  height: 75%;
+  /* background: beige; */
+  display: flex;
+  align-items: center;
+}
+.footerrightside {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.footerproduct {
+  width: 180px;
+  height: 200px;
+}
+.Product {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.products {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.newsletter {
+  width: 30%;
+  height: 75%;
+  margin-top: 3px;
+  /* background-color: blueviolet; */
+  display: flex;
+  flex-direction: column;
+}
+.newsletter h3 {
+  font-size: 18px;
+  margin-bottom: 6px;
+}
+.newsletter p {
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 10px;
+  margin-bottom: 12px;
+}
+input {
+  width: 230px;
+  height: 40px;
+  background-color: white;
+  border-radius: 3px;
+  margin-bottom: 10px;
+  padding: 0px 10px;
+  border: 1px solid #643924;
+  cursor: pointer;
+}
+input::placeholder {
+  padding: 0px 10px;
+}
+button {
+  width: 200px;
+  height: 40px;
+  background-color: #643924;
+  color: white;
+  border-radius: 3px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+}
+
+/* #532620 */
+@media (min-width: 430px) and (max-width: 480px) {
+  .header1 {
+  }
+  .nav ul {
+    display: none;
+  }
+  .hamburger {
+    display: flex;
+  }
+  .detailpage {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .leftcard {
+    width: 100%;
+    height: 400px;
+    /* background-color: green; */
+    background-position: center;
+    background-size: cover;
+
+    background-repeat: no-repeat;
+  }
+  .rightcard {
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .rightcardholder {
+    width: 400px;
+    margin-top: 20px;
+    /* margin-bottom: 10px; */
+  }
+ .shirts{
+  font-size: 14px;
+ }
+  .header h3 {
+    font-size: 25px;
+  }
+  .italic{
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .money {
+    font-size: 19px;
+    margin-top: 15px;
+  }
+  .minus {
+    width: 30px;
+    margin-top: 15px;
+    height: 25px;
+  }
+  .add {
+    width: 30px;
+    margin-top: 15px;
+    height: 25px;
+  }
+  .addtocart {
+    width: 150px;
+    height: 50px;
+  }
+  .buynow {
+    width: 150px;
+    height: 50px;
+  }
+
+  .footerpage {
+    height: auto;
+    display: flex;
+    /* justify-content: center; */
+  }
+  .footerholder {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .firstfooter {
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 20px;
+  }
+  .footerproductholder {
+    margin-top: 18px;
+    margin-bottom: 10px;
+    width: 100%;
+    border-bottom: 1px solid #333;
+  }
+  .footerrightside {
+    display: flex;
+  }
+  .newsletter {
+    width: 100%;
+    border-bottom: 1px solid #333;
+  }
+  button {
+    width: 150px;
+    margin-bottom: 20px;
+  }
+  .footerlogoimg {
+    margin-bottom: 20px;
+  }
+  .exclusively {
+    margin-top: 20px;
+  }
+  .exclusively h3 {
+    font-size: 16px;
+    padding-bottom:3px;
+  }
+  .exclusively p {
+    font-size: 14px;
+  }
+  .header{
+    margin-top: 8px;
+  }
+}

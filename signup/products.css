@@ -1,0 +1,552 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.header {
+  width: 100%;
+  height: 70px;
+  background-color: rgba(255, 255, 255, 0.25);
+  -webkit-backdrop-filter: blur(4px);
+  backdrop-filter: blur(10px);
+  /* border: 1px solid rgba(255,255,255,0.125); */
+  display: flex;
+  justify-content: center;
+}
+.headerholder {
+  width: 85%;
+  height: 67px;
+  /* background-color: grey; */
+  /* border-bottom: 1px solid white; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  width: 80px;
+  font-weight: bold;
+  color: #5c3421;
+}
+.nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 22px;
+}
+
+.nav ul li a {
+  color: black;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bold;
+  opacity: 1;
+  /* background-color: #c69d67; */
+  padding: 4px;
+  border-radius: 3px;
+}
+.nav ul li a:hover {
+  border-bottom: 1px solid black;
+}
+.hamburger {
+  width: 60px;
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+.hamburger img {
+  width: 100%;
+  height: 100%;
+}
+.mainsection {
+  width: 100%;
+  background-color: #ad7949;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.mainsectionheader {
+  width: 400px;
+  /* height: 100px; */
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+}
+.mainsectionheaderholder {
+  text-decoration: none;
+  text-align: center;
+}
+.newarrivals {
+  font-size: 34px;
+  margin-bottom: 1px;
+}
+.arrivalssmalltext {
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.mainsectionholder {
+  width: 85%;
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cardsholder {
+  width: 100%;
+  gap: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  /* justify-content: space-between; */
+}
+.cards {
+  width: 270px;
+  height: 390px;
+  /* background-color: white; */
+  background-color: #f3e9e0;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.cardimg {
+  margin-top: 20px;
+  width: 240px;
+  height: 240px;
+  /* background-color: burlywood; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f3e9e0;
+  background-image: url(../myproject/projectimg/chic-beach-bag-with-accessories-isolated-transparent-background_191095-17855-removebg-preview.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.cardtext {
+  width: 100%;
+  height: 60px;
+  /* background-color: #b6813c; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.luxury {
+  width: auto;
+  /* background-color: red; */
+  color: black;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.luxurybag {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.cardimg2 {
+  margin-top: 20px;
+  width: 240px;
+  height: 240px;
+  /* background-color: burlywood; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f3e9e0;
+  background-image: url(../myproject/projectimg/set-clothing-accessories-white-background-lay-lay-generative-ia_209190-161704-removebg-preview.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.buttondiv {
+  display: flex;
+  justify-content: space-between;
+}
+.luxurymoney {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+.addtocart {
+  width: 120px;
+  height: 35px;
+  border: none;
+  border-radius: 3px;
+  background: #643924;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+}
+.cardimg3 {
+  margin-top: 20px;
+  width: 240px;
+  height: 240px;
+  /* background-color: burlywood; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f3e9e0;
+  background-image: url(../myproject/projectimg/woman-spending-time-nature-full-shot.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.cardimg4 {
+  margin-top: 20px;
+  width: 240px;
+  height: 240px;
+  /* background-color: burlywood; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f3e9e0;
+  background-image: url(../myproject/projectimg/close-up-person-wearing-high-heels_1145069-6359-removebg-preview.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.cardimg5 {
+  margin-top: 20px;
+  width: 240px;
+  height: 240px;
+  /* background-color: burlywood; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f3e9e0;
+  background-image: url(../myproject/projectimg/Women-Sportswear-And-Fitness-Goals-2021-removebg-preview.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.cardimg6 {
+  margin-top: 20px;
+  width: 240px;
+  height: 240px;
+  /* background-color: burlywood; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f3e9e0;
+  background-image: url(../myproject/projectimg/realistic-gold-silver-jewelry-display-black-mannequins-stands-grey-surface.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.cardimg7 {
+  margin-top: 20px;
+  width: 240px;
+  height: 240px;
+  /* background-color: burlywood; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f3e9e0;
+  background-image: url(../myproject/projectimg/smartwatch.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.cardimg8 {
+  margin-top: 20px;
+  width: 240px;
+  height: 240px;
+  /* background-color: burlywood; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f3e9e0;
+  background-image: url(../myproject/projectimg/images__1_-removebg-preview\\(
+      1\
+    ).png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.cardimg9 {
+  margin-top: 20px;
+  width: 240px;
+  height: 240px;
+  /* background-color: burlywood; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f3e9e0;
+  background-image: url(../myproject/projectimg/girl-playing-with-soap-bubbles_23-2148843684-removebg-preview.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.cardimg10 {
+  margin-top: 20px;
+  width: 240px;
+  height: 240px;
+  /* background-color: burlywood; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f3e9e0;
+  background-image: url(../myproject/projectimg/african-american-woman-simple-brown-one-piece-swimsuit-summer-fashion_53876-105008-removebg-preview.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.cardimg11 {
+  margin-top: 20px;
+  width: 240px;
+  height: 240px;
+  /* background-color: burlywood; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f3e9e0;
+  background-image: url(../myproject/projectimg/images__2_-removebg-preview\\(
+      2\
+    ).png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.cardimg12 {
+  margin-top: 20px;
+  width: 240px;
+  height: 240px;
+  /* background-color: burlywood; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f3e9e0;
+  background-image: url(../myproject/projectimg/pair-trainers_144627-3800-removebg-preview.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.footerpage {
+  width: 100%;
+  height: 350px;
+  /* margin-top: 35px; */
+  background-color: #d8c09c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footerholder {
+  width: 85%;
+  height: 100%;
+  /* background-color: green; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.firstfooter {
+  width: 32%;
+  height: 75%;
+  /* background-color: blue; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.footerlogo {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.footerlogoimg {
+  width: 100px;
+  height: 40px;
+  margin-bottom: 10px;
+  background-image: url(../myproject/projectimg/hand-drawn-clothing-store-logo-design_23-2149577874.avif);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.footericons {
+  width: 160px;
+  margin-top: 20px;
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: space-between;
+}
+.twitter {
+  width: 27px;
+  height: 27px;
+  border: 1px solid #643924;
+  border-radius: 5px;
+  background-image: url(../myproject/projectimg/black-twitter-logo-black-twitter-icon-twitter-symbol-free-free-vector-removebg-preview.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.linkedin {
+  width: 27px;
+  height: 27px;
+  border: 1px solid #643924;
+  border-radius: 5px;
+  background-image: url(../myproject/projectimg/6bab3017350ca04c6fa05569672bd31e.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.facebook {
+  width: 27px;
+  height: 27px;
+  border: 1px solid #643924;
+  border-radius: 5px;
+  background-image: url(../myproject/projectimg/png-transparent-crescent-arts-centre-facebook-inc-computer-icons-black-facebook-thumbnail-removebg-preview.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.instagram {
+  width: 27px;
+  height: 27px;
+  border: 1px solid #643924;
+  border-radius: 4px;
+  background-image: url(../myproject/projectimg/png-transparent-instagram-social-media-instagram-black-social-social-media-logo-icon-removebg-preview.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.exclusively {
+  width: 100%;
+}
+.exclusively h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+.exclusively p {
+  font-size: 16px;
+  font-weight: 500;
+}
+.footerproductholder {
+  width: 38%;
+  height: 75%;
+  /* background: beige; */
+  display: flex;
+  align-items: center;
+}
+.footerrightside {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.footerproduct {
+  width: 180px;
+  height: 200px;
+}
+.Product {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.products {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.newsletter {
+  width: 30%;
+  height: 75%;
+  margin-top: 3px;
+  /* background-color: blueviolet; */
+  display: flex;
+  flex-direction: column;
+}
+.newsletter h3 {
+  font-size: 18px;
+  margin-bottom: 6px;
+}
+.newsletter p {
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 10px;
+  margin-bottom: 12px;
+}
+input {
+  width: 230px;
+  height: 40px;
+  background-color: white;
+  border-radius: 3px;
+  margin-bottom: 10px;
+  padding: 0px 10px;
+  border: 1px solid #643924;
+  cursor: pointer;
+}
+input::placeholder {
+  padding: 0px 10px;
+}
+button {
+  width: 200px;
+  height: 40px;
+  background-color: #643924;
+  color: white;
+  border-radius: 3px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+}
+@media (min-width: 430px) and (max-width: 480px) {
+  .nav ul {
+    display: none;
+  }
+  .hamburger {
+    display: flex;
+  }
+  .footerpage {
+    height: auto;
+    display: flex;
+    /* justify-content: center; */
+  }
+  .footerholder {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .firstfooter {
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 20px;
+  }
+  .footerproductholder {
+    /* margin-top: 15px; */
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+    width: 100%;
+    border-bottom: 1px solid #333;
+  }
+  .footerrightside {
+    display: flex;
+  }
+  .newsletter {
+    width: 100%;
+    border-bottom: 1px solid #333;
+  }
+  button {
+    width: 150px;
+    margin-bottom: 20px;
+  }
+  .footerlogoimg {
+    margin-bottom: 20px;
+  }
+  .exclusively {
+    margin-top: 20px;
+  }
+  .exclusively h3 {
+    font-size: 18px;
+  }
+  .exclusively p {
+    font-size: 16px;
+  }
+}

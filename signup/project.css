@@ -1,0 +1,2094 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.body {
+  font-family: "Open Sans", sans-serif;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+.firstsection {
+  width: 100%;
+  height: 100vh;
+  margin-top: 15px;
+  font-family: "Open Sans", sans-serif;
+  background-image: url(../myproject/projectimg/happy-couple-enjoying-day-out-together_972324-33033.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.header {
+  width: 100%;
+  height: 70px;
+  background-color: rgba(255,255,255,0.25);
+  -webkit-backdrop-filter: blur(4px);
+  backdrop-filter: blur(10px);
+  /* border: 1px solid rgba(255,255,255,0.125); */
+  display: flex;
+  justify-content: center;
+}
+.headerholder {
+  width: 92%;
+  height: 67px;
+  /* background-color: grey; */
+  /* border-bottom: 1px solid white; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  width: 80px;
+  font-weight: bold;
+  color: #5c3421;
+}
+.nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 22px;
+}
+
+.nav ul li a {
+  color: black;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bold;
+  opacity: 1;
+  /* background-color: #c69d67; */
+  padding: 4px;
+  border-radius: 3px;
+}
+.nav ul li a:hover{
+  border-bottom: 1px solid #fff;
+}
+.hamburger {
+  width: 60px;
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+.hamburger img {
+  width: 100%;
+  height: 100%;
+}
+
+.Heropage {
+  width: 100%;
+  height: 100%;
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.heroholder {
+  width: 92%;
+  height: 100%;
+  /* background-color: bisque; */
+  display: flex;
+  align-items: center;
+}
+.leftherocard {
+  width: 600px;
+  /* background-color: blue; */
+  margin-top: 25px;
+  color: white;
+}
+.mberhero {
+  font-size: 18px;
+  font-weight: 500;
+}
+.specialoffers {
+  font-size: 45px;
+  margin-top: 15px;
+}
+
+.herobutton {
+  width: 200px;
+  height: 50px;
+  background-color: #c69d67;
+  color: white;
+  border: none;
+}
+.italics {
+  font-style: italic;
+  font-size: 25px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  font-weight: 100;
+}
+.secondsection {
+  background-color: #5c3421;
+  width: 100%;
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.secondsectionholder {
+  margin-top: 30px;
+  width: 100%;
+  margin-bottom: 50px;
+  /* background-color: gold; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.secondsectionheader {
+  width:85%;
+  /* height: 300px; */
+  /* background-color: #f26d3d; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.browsecat {
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.browse {
+  font-size: 28px;
+  font-weight: bold;
+  color: #ffe9d8;
+}
+.categoriesdiv {
+  width: 100%;
+  gap: 1px;
+  display: flex;
+}
+.catgories {
+  width: 100%;
+  height: 120px;
+  border-radius: 3px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.categoriesimg {
+  width: 80px;
+  height: 80px;
+  margin-top: 8px;
+  background-image: url(../myproject/projectimg/watch_23-2147692583-removebg-preview.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.Accessories {
+  font-size: 16px;
+  font-weight: 600;
+}
+.catgories2 {
+  width: 100%;
+  height: 120px;
+  border-radius: 3px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.categoriesimg2 {
+  width: 80px;
+  height: 80px;
+  margin-top: 8px;
+  background-image: url(../myproject/projectimg/levitating-product-display-with-handbag_23-2149670640-removebg-preview.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.Bags {
+  font-size: 16px;
+  font-weight: 600;
+}
+.catgories3 {
+  width: 100%;
+  height: 120px;
+  border-radius: 3px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.categoriesimg3 {
+  width: 80px;
+  height: 80px;
+  margin-top: 8px;
+  background-image: url(../myproject/projectimg/arafed-woman-colorful-dress-with-lot-bags-generative-ai_1034560-69197-removebg-preview.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.Dresses {
+  margin-top: 2px;
+  font-size: 16px;
+  font-weight: 600;
+}
+.catgories4 {
+  width: 100%;
+  height: 120px;
+  border-radius: 3px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.categoriesimg4 {
+  width: 80px;
+  height: 80px;
+  margin-top: 8px;
+  background-image: url(../myproject/projectimg/40b58e6187b9c11e7fc627a4e7b8ac88-removebg-preview.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.TShirt {
+  margin-top: 2px;
+  font-size: 16px;
+  font-weight: 600;
+}
+.catgories5 {
+  width: 100%;
+  height: 120px;
+  border-radius: 3px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.categoriesimg5 {
+  width: 80px;
+  height: 80px;
+  margin-top: 8px;
+  background-image: url(../myproject/projectimg/shoes_1203-8141-removebg-preview.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.Shoes {
+  margin-top: 2px;
+  font-size: 16px;
+  font-weight: 600;
+}
+.catgories6 {
+  width: 100%;
+  height: 120px;
+  border-radius: 3px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.categoriesimg6 {
+  width: 80px;
+  height: 80px;
+  margin-top: 8px;
+  background-image: url(../myproject/projectimg/3d-illustration-closed-black-gift-box_107791-18203-removebg-preview.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.Gift {
+  margin-top: 2px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.subsecondholder {
+  width: 85%;
+  /* background-color: blue; */
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+.subsecondholderheader {
+  width: 500px;
+  margin-top: 70px;
+  color: #ffe9d8;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.subsecondholderheader p {
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+.subsecondholderheader h1 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+.navs2 {
+  width: 440px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+.Nav {
+  font-size: 15px;
+  font-size: 600;
+  border-bottom: 1px solid white;
+}
+.Nav2 {
+  font-size: 15px;
+  font-size: 600;
+  color: white;
+}
+.cardcontainer {
+  margin-top: 40px;
+  gap: 1.6px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.cards {
+  width: 228px;
+  height: 330px;
+  background-color: white;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.cards:hover {
+  background-color: #ccac97;
+  cursor: pointer;
+}
+.imgdiv {
+  width: 200px;
+  height: 190px;
+  /* background-color: gold; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../myproject/projectimg/chic-beach-bag-with-accessories-isolated-transparent-background_191095-17855-removebg-preview.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.cardtext {
+  width: 200px;
+  height: 80px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* background-color: green; */
+}
+.cardtext p {
+  font-size: 13px;
+  font-weight: 500;
+}
+.cardtext h3 {
+  font-size: 15px;
+  font-weight: bold;
+}
+.cards2 {
+  width: 228px;
+  height: 330px;
+  background-color: white;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.cards2:hover {
+  background-color: #ccac97;
+  cursor: pointer;
+}
+.imgdiv2 {
+  width: 200px;
+  height: 190px;
+  /* background-color: gold; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../myproject/projectimg/set-clothing-accessories-white-background-lay-lay-generative-ia_209190-161704-removebg-preview.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.cardtext2 {
+  width: 200px;
+  height: 80px;
+  /* background-color: green; */
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.cardtext2 p {
+  font-size: 13px;
+  font-weight: 200;
+}
+.cardtext2 h3 {
+  font-size: 15px;
+  font-weight: bold;
+}
+.cards3 {
+  width: 228px;
+  height: 330px;
+  border-radius: 5px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.cards3:hover {
+  background-color: #ccac97;
+  cursor: pointer;
+}
+.imgdiv3 {
+  width: 200px;
+  height: 190px;
+  /* background-color: gold; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../myproject/projectimg/Women-Sportswear-And-Fitness-Goals-2021-removebg-preview.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.cardtext3 {
+  width: 200px;
+  height: 80px;
+  /* background-color: green; */
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.cardtext3 p {
+  font-size: 13px;
+  font-weight: 200;
+}
+.cardtext3 h3 {
+  font-size: 15px;
+  font-weight: bold;
+}
+.cards4 {
+  width: 228px;
+  height: 330px;
+  border-radius: 5px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.cards4:hover {
+  background-color: #ccac97;
+  cursor: pointer;
+}
+.imgdiv4 {
+  width: 200px;
+  height: 190px;
+  /* background-color: gold; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../myproject/projectimg/woman-spending-time-nature-full-shot.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.cardtext4 {
+  width: 200px;
+  height: 80px;
+  /* background-color: green; */
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.cardtext4 p {
+  font-size: 13px;
+  font-weight: 200;
+}
+.cardtext4 h3 {
+  font-size: 15px;
+  font-weight: bold;
+}
+.cards5 {
+  width: 228px;
+  height: 330px;
+  border-radius: 5px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.cards5:hover {
+  background-color: #ccac97;
+  cursor: pointer;
+}
+.imgdiv5 {
+  width: 200px;
+  height: 190px;
+  /* background-color: gold; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../myproject/projectimg/realistic-gold-silver-jewelry-display-black-mannequins-stands-grey-surface.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.cardtext5 {
+  width: 200px;
+  height: 80px;
+  /* background-color: green; */
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.cardtext5 p {
+  font-size: 13px;
+  font-weight: 200;
+}
+.cardtext5 h3 {
+  font-size: 15px;
+  font-weight: bold;
+}
+.cards6 {
+  width: 228px;
+  height: 330px;
+  border-radius: 5px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.cards6:hover {
+  background-color: #ccac97;
+  cursor: pointer;
+}
+.imgdiv6 {
+  width: 200px;
+  height: 190px;
+  /* background-color: gold; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../myproject/projectimg/smartwatch.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.cardtext6 {
+  width: 200px;
+  height: 80px;
+  /* background-color: green; */
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.cardtext6 p {
+  font-size: 13px;
+  font-weight: 200;
+}
+.cardtext6 h3 {
+  font-size: 15px;
+  font-weight: bold;
+}
+.cards7 {
+  width: 228px;
+  height: 330px;
+  border-radius: 5px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.cards7:hover {
+  background-color: #ccac97;
+  cursor: pointer;
+}
+.imgdiv7 {
+  width: 200px;
+  height: 190px;
+  /* background-color: gold; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../myproject/projectimg/girl-playing-with-soap-bubbles_23-2148843684-removebg-preview.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.cardtext7 {
+  width: 200px;
+  height: 80px;
+  /* background-color: green; */
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.cardtext7 p {
+  font-size: 13px;
+  font-weight: 200;
+}
+.cardtext7 h3 {
+  font-size: 15px;
+  font-weight: bold;
+}
+.cards8 {
+  width: 228px;
+  height: 330px;
+  border-radius: 5px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.cards8:hover {
+  background-color: #ccac97;
+  cursor: pointer;
+}
+.imgdiv8 {
+  width: 200px;
+  height: 190px;
+  /* background-color: gold; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../myproject/projectimg/african-american-woman-simple-brown-one-piece-swimsuit-summer-fashion_53876-105008-removebg-preview.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.cardtext8 {
+  width: 200px;
+  height: 80px;
+  /* background-color: green; */
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.cardtext8 p {
+  font-size: 13px;
+  font-weight: 200;
+}
+.cardtext8 h3 {
+  font-size: 15px;
+  font-weight: bold;
+}
+.cards9 {
+  width: 228px;
+  height: 330px;
+  border-radius: 5px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.cards9:hover {
+  background-color: #ccac97;
+  cursor: pointer;
+}
+.imgdiv9 {
+  width: 200px;
+  height: 190px;
+  /* background-color: gold; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../myproject/projectimg/40b58e6187b9c11e7fc627a4e7b8ac88-removebg-preview.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.cardtext9 {
+  width: 200px;
+  height: 80px;
+  /* background-color: green; */
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.cardtext9 p {
+  font-size: 13px;
+  font-weight: 200;
+}
+.cardtext9 h3 {
+  font-size: 15px;
+  font-weight: bold;
+}
+.cards10 {
+  width: 228px;
+  height: 330px;
+  border-radius: 5px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.cards10:hover {
+  background-color: #ccac97;
+  cursor: pointer;
+  color: white;
+}
+.imgdiv10 {
+  width: 200px;
+  height: 190px;
+  /* background-color: gold; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../myproject/projectimg/pair-trainers_144627-3800-removebg-preview.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.cardtext10 {
+  width: 200px;
+  height: 80px;
+  /* background-color: green; */
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.cardtext10 p {
+  font-size: 13px;
+  font-weight: 200;
+}
+.cardtext10 h3 {
+  font-size: 15px;
+  font-weight: bold;
+}
+.thirdsection {
+  width: 100%;
+  height: 100vh;
+  font-family: "Open Sans", sans-serif;
+background-image: url(../myproject/projectimg/wall-with-clock-clock-it_1085074-14295.jpeg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;  
+display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.thirdholder {
+  width: 92%;
+  height: 100%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  /* background: white; */
+  display: flex;
+}
+.thirdleft {
+  width: 50%;
+  height: 100%;
+  /* background-color: red; */
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+}
+.thirdleftholder {
+  width: 410px;
+  /* background-color: blue; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.thirdleftholder h1 {
+  font-size: 46px;
+  color: #3d1b0b;
+}
+.thirdleftholder h3 {
+  font-size: 20px;
+  font-weight: 500;
+  color: #5c3421;
+  margin-top: 15px;
+  /* text-align: justify; */
+}
+.thirdright {
+  width: 50%;
+  height: 100%;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+.thirdrightholder {
+  width: 100%;
+  height: 95%;
+  /* background-color: greenyellow; */
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+}
+.thirdrightcard {
+  width: 380px;
+  height: 180px;
+  border-radius: 35px;
+  background-color: #5c3421;
+  display: flex;
+}
+.thirdrightcardholder {
+  width: 100%;
+  margin: 10px;
+  /* background-color: #E09F7D; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.divtext {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+}
+.quotetext {
+  width: 355px;
+  margin: 10px;
+  /* background-color: green; */
+  display: flex;
+}
+.quotes {
+  width: 110px;
+  height: 40px;
+  background-image: url(../myproject/projectimg/479901-200-removebg-preview.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.quotetext h3 {
+  font-size: 10px;
+  margin-left: 15px;
+}
+.Emily {
+  width: 200px;
+  margin: 10px;
+  margin-top: 15px;
+  color: #d8c09c;
+  display: flex;
+}
+.emilyprofile {
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+  background-image: url(../myproject/projectimg/international-day-education-celebration_23-2150931024.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.Emily h3 {
+  font-size: 20px;
+  font-weight: 500;
+  margin-left: 28px;
+}
+.thirdrightcard:nth-child(2) {
+  background-color: #5c3421;
+}
+.thirdrightcardholder {
+  width: 100%;
+  margin: 10px;
+  /* background-color: #E09F7D; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.divtext {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+}
+.quotetext {
+  width: 355px;
+  margin: 10px;
+  /* background-color: green; */
+  display: flex;
+}
+.quotes {
+  width: 110px;
+  height: 40px;
+  background-image: url(../myproject/projectimg/479901-200-removebg-preview.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.quotetext h3 {
+  font-size: 20px;
+  color: white;
+  margin-left: 15px;
+}
+.Emily {
+  width: 200px;
+  margin: 10px;
+  margin-top: 15px;
+  /* background-color: white; */
+  display: flex;
+}
+.emilyprofile {
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+  background-image: url(../myproject/projectimg/international-day-education-celebration_23-2150931024.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.Emily h3 {
+  font-size: 16px;
+  margin-left: 28px;
+}
+.thirdrightcard:nth-child(3) {
+  background-color: #5c3421;
+}
+.thirdrightcardholder {
+  width: 100%;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.divtext {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+}
+.quotetext {
+  width: 355px;
+  margin: 10px;
+  /* background-color: green; */
+  display: flex;
+}
+.quotes {
+  width: 110px;
+  height: 40px;
+  background-image: url(../myproject/projectimg/479901-200-removebg-preview.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.quotetext h3 {
+  font-size: 15px;
+  margin-left: 15px;
+}
+.Emily {
+  width: 200px;
+  margin: 10px;
+  margin-top: 15px;
+  /* background-color: white; */
+  display: flex;
+}
+.emilyprofile {
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+  background-image: url(../myproject/projectimg/young-handsome-man-posing-with-hat_23-2148884336.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.Emily h3 {
+  font-size: 15px;
+  margin-left: 28px;
+}
+.fourthsection {
+  width: 100%;
+  font-family: "Open Sans", sans-serif;
+  background-color: #643924;
+  /* border-top: 2px solid #ffffff; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.fourthheader {
+  width: 92%;
+  height: 50px;
+  margin-top: 40px;
+  /* background-color: greenyellow; */
+}
+.fourthheaderholder {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.fourthheaderholder h1 {
+  font-size: 28px;
+  color: white;
+}
+.fourthheaderholder h3 {
+  font-size: 14px;
+  font-weight: 500;
+  color: #ffffff;
+  border-bottom: 1px solid #ffffff;
+}
+.fourthheaderholder h3:hover{
+background-color: #fee191;
+color: black;
+font-weight: bold;
+cursor: pointer;
+}
+.fourthsectionholder {
+  width: 92%;
+  margin-top: 20px;
+  margin-bottom: 45px;
+  /* background-color: gold; */
+  display: flex;
+}
+.fourthleft {
+  width: 38%;
+  /* background-color: red; */
+  display: flex;
+  align-items: center;
+}
+.fourthleftholder {
+  /* width: 100%; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: green; */
+}
+.fourthleftcard {
+  width: 340px;
+  height: 600px;
+  border-radius: 45px;
+  display: flex;
+  background-color: #f3f1cd;
+  background-image: url(../myproject/projectimg/download\ \(1\).png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.fourthleftcardholder {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.leftcardtext {
+  margin: 30px;
+  width: 220px;
+  display: flex;
+  flex-direction: column;
+  /* background-color: red; */
+}
+.leftcardtext p {
+  font-size: 18px;
+  font-weight: 500;
+  padding-bottom: 5px;
+}
+.leftcardtext h3 {
+  font-size: 16px;
+}
+.leftcardimgholder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.leftcardimg {
+  width: 320px;
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* background-color: #E09F7D; */
+}
+.fourthright {
+  width: 62%;
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: space-between;
+}
+.fourthrightholder {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.fourthrightup {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.firstfourthright1 {
+  width: 350px;
+  height: 280px;
+  border-radius: 30px;
+  background-color: #f8f7d9;
+  display: flex;
+  align-items: flex-end;
+  background-image: url(../myproject/projectimg/download\ \(3\).png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.assorted {
+  width: 300px;
+  margin: 20px;
+  /* background-color: aqua; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.assorted p {
+  font-size: 18px;
+  font-weight: 500;
+}
+.assorted h2 {
+  font-size: 16px;
+}
+.firstfourthright2 {
+  width: 350px;
+  height: 280px;
+  border-radius: 30px;
+  background-color: #f8f7d9;
+  display: flex;
+  align-items: flex-end;
+  background-image: url(../myproject/projectimg/download\ \(2\).png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.fourthrightdown {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.fourthrightdowncard {
+  width: 100%;
+  height: 280px;
+  border-radius: 30px;
+  background-color: #f8f7d9;
+  display: flex;
+  align-items: flex-end;
+  background-image: url(../myproject/projectimg/download.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.footerpage{
+  width: 100%;
+  height: 350px;
+  /* margin-top: 35px; */
+  background-color: #d8c09c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footerholder{
+  width: 85%;
+  height: 100%;
+  /* background-color: green; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.firstfooter{
+  width: 32%;
+  height: 75%;
+  /* background-color: blue; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.footerlogo{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  
+}
+.footerlogoimg{
+  width: 100px;
+  height: 40px;
+  margin-bottom: 10px;
+  background-image: url(../myproject/projectimg/hand-drawn-clothing-store-logo-design_23-2149577874.avif);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.footericons{
+  width: 160px;
+  margin-top: 20px;
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: space-between;
+}
+.twitter{
+  width: 27px;
+  height: 27px;
+  border: 1px solid #643924;
+  border-radius: 5px;
+  background-image: url(../myproject/projectimg/black-twitter-logo-black-twitter-icon-twitter-symbol-free-free-vector-removebg-preview.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.linkedin{
+  width: 27px;
+  height: 27px;
+  border: 1px solid #643924;
+  border-radius: 5px;
+  background-image: url(../myproject/projectimg/6bab3017350ca04c6fa05569672bd31e.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.facebook{
+  width: 27px;
+  height: 27px;
+  border: 1px solid #643924;
+  border-radius: 5px;
+  background-image: url(../myproject/projectimg/png-transparent-crescent-arts-centre-facebook-inc-computer-icons-black-facebook-thumbnail-removebg-preview.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.instagram{
+  width: 27px;
+  height: 27px;
+  border: 1px solid #643924;
+  border-radius: 4px;
+  background-image: url(../myproject/projectimg/png-transparent-instagram-social-media-instagram-black-social-social-media-logo-icon-removebg-preview.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.exclusively{
+  width: 100%;
+}
+.exclusively h3{
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+.exclusively p{
+  font-size: 18px;
+  font-weight: 500;
+}
+.footerproductholder{
+  width: 38%;
+  height: 75%;
+  /* background: beige; */
+  display: flex;
+  align-items: center;
+}
+.footerrightside{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.footerproduct{
+  width: 180px;
+  height: 200px;
+}
+.Product{
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.products{
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.newsletter{
+    width: 30%;
+    height: 75%;
+    margin-top: 3px;
+     /* background-color: blueviolet; */
+    display: flex;
+    flex-direction: column;
+  }
+  .newsletter h3{
+    font-size: 18px;
+    margin-bottom: 6px;
+  }
+  .newsletter p{
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 12px;
+  }
+  input{
+    width: 230px;
+    height: 40px;
+    background-color: white;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    padding: 0px 10px;
+    border: 1px solid #643924;
+    cursor: pointer;
+  }
+  input::placeholder{
+    padding: 0px 10px;
+  }
+  button{
+    width: 200px;
+    height: 40px;
+    background-color: #643924;
+    color: white;
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+  }
+@media (min-width: 430px) and(max-width: 480px) {
+  .nav {
+    display: none;
+    width: 78%;
+    height: calc(100vh - 70px);
+    position: fixed;
+    top: 90px;
+    right: 0;
+    background-color: grey;
+  }
+  .nav ul {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+  }
+  .nav ul li {
+    text-align: center;
+    width: 300px;
+    padding: 10px 0;
+    border-bottom: 2px solid white;
+  }
+  .hamburger {
+    display: flex;
+  }
+  .nav.open {
+    display: flex;
+    justify-content: center;
+  }
+  .firstsection {
+    width: 100%;
+    height: 100vh;
+    margin-top: 15px;
+    background-image: url(../myproject/projectimg/happy-couple-enjoying-day-out-together_972324-33033.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .heroholder {
+    width: 92%;
+    height: 100%;
+    margin-top: 30px;
+    /* background-color: bisque; */
+    display: flex;
+    align-items: center;
+  }
+  .leftherocard {
+    width: 300px;
+    /* background-color: blue; */
+
+    color: white;
+  }
+  .mberhero {
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .specialoffers {
+    font-size: 33px;
+    margin-top: 15px;
+  }
+  /* .herotext{
+  font-size: 18px;
+  margin-top: 10px;
+  } */
+  .herobutton {
+    width: 180px;
+    height: 50px;
+    background-color: brown;
+    color: white;
+    border: none;
+  }
+  .italics {
+    font-style: italic;
+    font-size: 17px;
+    margin-top: 5px;
+    margin-bottom: 23px;
+    font-weight: 100;
+  }
+}
+@media (min-width: 430px) and (max-width: 480px) {
+  .secondsection {
+    background-color: #e09f7d;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .secondsectionholder {
+    margin-top: 30px;
+    width: 100%;
+    margin-bottom: 50px;
+    /* background-color: gold; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .secondsectionheader {
+    width: 92%;
+    /* height: 300px; */
+    /* background-color: #f26d3d; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .browsecat {
+    /* background-color: green; */
+  }
+  .browse {
+    font-size: 25px;
+  }
+  .categoriesdiv {
+    display: flex;
+    /* background: burlywood; */
+  }
+  .catgories6 {
+    display: none;
+  }
+  .catgories5 {
+    display: none;
+  }
+  .catgories {
+    display: flex;
+    align-items: center;
+  }
+  .Accessories {
+    padding-top: 3px;
+    font-size: 15px;
+  }
+  .catgories2 {
+    display: flex;
+    align-items: center;
+  }
+  .Bags {
+    padding-top: 3px;
+    font-size: 15px;
+  }
+  .catgories3 {
+    display: flex;
+    align-items: center;
+  }
+  .Dresses {
+    padding-top: 3px;
+    font-size: 15px;
+  }
+  .catgories4 {
+    display: flex;
+    align-items: center;
+  }
+  .TShirt {
+    padding-top: 3px;
+    font-size: 15px;
+  }
+  .subsecondholder {
+    width: 92%;
+  }
+  .subsecondholderheader {
+    width: 100%;
+    margin-top: 60px;
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .subsecondholderheader p {
+    font-size: 14px;
+  }
+  .subsecondholderheader h1 {
+    font-size: 25px;
+  }
+  .navs2 {
+    width: 330px;
+    margin-bottom: 10px;
+  }
+  .Nav {
+    font-size: 14px;
+  }
+  .Nav2 {
+    font-size: 14px;
+  }
+  .cardcontainer {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    /* background-color: palegoldenrod; */
+    margin-top: 15px;
+  }
+  .cards7 {
+    display: none;
+  }
+  .cards8 {
+    display: none;
+  }
+  .cards9 {
+    display: none;
+  }
+  .cards10 {
+    display: none;
+  }
+  .cards {
+    width: 211px;
+    height: 300px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .imgdiv {
+    width: 190px;
+    height: 190px;
+    /* background-color: gold; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../myproject/projectimg/colorful-knitted-bag-still-life_23-2150709497-removebg-preview.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .cardtext {
+    width: 190px;
+    height: 68px;
+    /* background-color: purple; */
+    display: flex;
+    justify-content: center;
+  }
+  .cardtext p {
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .cardtext h3 {
+    font-size: 16px;
+
+    margin-top: 5px;
+  }
+
+  .cards2 {
+    width: 211px;
+    height: 300px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .imgdiv2 {
+    width: 190px;
+    height: 190px;
+    /* background-color: gold; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../myproject/projectimg/colorful-knitted-bag-still-life_23-2150709497-removebg-preview.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .cardtext2 {
+    width: 190px;
+    height: 68px;
+    /* background-color: purple; */
+    display: flex;
+    align-items: center;
+  }
+  .cardtext2 p {
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .cardtext2 h3 {
+    font-size: 16px;
+    margin-top: 5px;
+  }
+  .cards3 {
+    width: 211px;
+    height: 300px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .imgdiv3 {
+    width: 190px;
+    height: 190px;
+    /* background-color: gold; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../myproject/projectimg/colorful-knitted-bag-still-life_23-2150709497-removebg-preview.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .cardtext3 {
+    width: 190px;
+    height: 68px;
+    /* background-color: purple; */
+    display: flex;
+    align-items: center;
+  }
+  .cardtext3 p {
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .cardtext3 h3 {
+    font-size: 16px;
+    margin-top: 5px;
+  }
+  .cards4 {
+    width: 211px;
+    height: 300px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .imgdiv4 {
+    width: 190px;
+    height: 190px;
+    /* background-color: gold; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../myproject/projectimg/colorful-knitted-bag-still-life_23-2150709497-removebg-preview.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .cardtext4 {
+    width: 190px;
+    height: 68px;
+    /* background-color: purple; */
+    display: flex;
+    align-items: center;
+  }
+  .cardtext4 p {
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .cardtext4 h3 {
+    font-size: 16px;
+    margin-top: 5px;
+  }
+  .cards5 {
+    width: 211px;
+    height: 300px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .imgdiv5 {
+    width: 190px;
+    height: 190px;
+    /* background-color: gold; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../myproject/projectimg/colorful-knitted-bag-still-life_23-2150709497-removebg-preview.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .cardtext5 {
+    /* background-color: purple; */
+    display: flex;
+    align-items: center;
+  }
+  .cardtext5 p {
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .cardtext5 h3 {
+    font-size: 16px;
+    margin-top: 5px;
+  }
+  .cards6 {
+    width: 211px;
+    height: 300px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .imgdiv6 {
+    width: 190px;
+    height: 190px;
+    /* background-color: gold; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../myproject/projectimg/colorful-knitted-bag-still-life_23-2150709497-removebg-preview.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .cardtext6 {
+    /* background-color: purple; */
+    display: flex;
+    align-items: center;
+  }
+  .cardtext6 p {
+    font-size: 13px;
+    font-weight: 500;
+  }
+  .cardtext6 h3 {
+    font-size: 15px;
+    margin-top: 5px;
+  }
+}
+@media (max-width: 480px) {
+  .thirdsection {
+    width: 100%;
+    height: auto;
+  }
+  .thirdholder {
+    width: 92%;
+    margin-top: 28px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .thirdleft {
+    width: 90%;
+    height: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .thirdleftholder {
+    width: 330px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .thirdleftholder h1 {
+    font-size: 40px;
+    text-align: center;
+  }
+  .thirdleftholder h3 {
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .thirdright {
+    width: 100%;
+    height: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .thirdrightholder {
+    width: 100%;
+    height: 95%;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+  }
+  .thirdrightcard {
+    width: 330px;
+    margin-bottom: 20px;
+    /* height: 150px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .thirdrightcardholder {
+    width: 100%;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .divtext {
+    width: 310px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .quotetext {
+    width: 300px;
+    /* margin: 10px; */
+    display: flex;
+    justify-content: center;
+  }
+  .quotes {
+    width: 95px;
+    height: 25px;
+    background-image: url(../myproject/projectimg/479901-200-removebg-preview.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .quotetext h3 {
+    font-size: 17px;
+  }
+  .Emily {
+    width: 200px;
+    margin-right: -12px;
+    display: flex;
+    align-items: center;
+  }
+  .emilyprofile {
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    background-image: url(../myproject/projectimg/international-day-education-celebration_23-2150931024.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .Emily h3 {
+    font-size: 16px;
+  }
+  .thirdrightcard:nth-child(3) {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .fourthsection {
+    display: flex;
+    flex-direction: column;
+  }
+  .fourthheader {
+    width: 92%;
+    height: 40px;
+    margin-bottom: 10px;
+    /* background-color: blue; */
+  }
+  .fourthheaderholder {
+    display: flex;
+    align-items: center;
+  }
+  .fourthheaderholder h1 {
+    font-size: 25px;
+  }
+  .fourthheaderholder h3 {
+    font-size: 16px;
+  }
+  .fourthrightdowncard {
+    display: none;
+  }
+  .fourthsectionholder {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .fourthleft {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .fourthleftholder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .fourthleftcard {
+    width: 280px;
+    height: 450px;
+    border-radius: 20px;
+  }
+  .fourthleftcardholder {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .leftcardtext {
+    /* margin: 30px; */
+    width: 200px;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .leftcardtext p {
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .leftcardtext h3 {
+    font-size: 20px;
+  }
+  .leftcardimgholder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .leftcardimg {
+    width: 240px;
+    height: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .fourthright {
+    width: 100%;
+  }
+  .fourthrightholder {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .fourthrightup {
+    width: 400px;
+    margin-top: 30px;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: space-between;
+  }
+  .firstfourthright1 {
+    width: 180px;
+    height: 160px;
+    border-radius: 25px;
+    /* background-color: #d3d3d3; */
+    display: flex;
+    align-items: flex-end;
+    background-image: url(../myproject/projectimg/40b58e6187b9c11e7fc627a4e7b8ac88-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .firstfourthright2 {
+    width: 180px;
+    height: 160px;
+    border-radius: 25px;
+    /* background-color: lightgray; */
+    display: flex;
+    align-items: flex-end;
+    background-image: url(../myproject/projectimg/40b58e6187b9c11e7fc627a4e7b8ac88-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .assorted {
+    width: 200px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .assorted p {
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .assorted h2 {
+    font-size: 16px;
+  }
+  
+}
+
+@media (min-width: 450px) and (max-width: 480px) {
+  .footerpage{
+    height: auto;
+    display: flex;
+
+  }
+  .footerholder{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .firstfooter{
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 20px;
+  }
+  .footerproductholder{
+    margin-top: 18px;
+    margin-bottom: 10px;
+    width: 100%;
+    border-bottom: 1px solid #333;
+  }
+  .footerrightside{
+    display: flex;
+  }
+  .newsletter{
+    width: 100%;
+    border-bottom: 1px solid #333;
+  }
+  button{
+    width: 150px;
+    margin-bottom: 20px;
+  }
+  .footerlogoimg{
+    margin-bottom: 20px;
+  }
+  .exclusively{
+    margin-top: 20px;
+  }
+  .exclusively h3{
+    font-size: 18px;
+  }
+  .exclusively p{
+    font-size: 16px;
+  }
+}

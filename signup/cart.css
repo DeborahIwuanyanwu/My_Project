@@ -1,0 +1,191 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  width: 100%;
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.header {
+  width: 100%;
+  height: 70px;
+  background-color: rgba(255, 255, 255, 0.25);
+  -webkit-backdrop-filter: blur(4px);
+  backdrop-filter: blur(10px);
+  /* border: 1px solid rgba(255,255,255,0.125); */
+  display: flex;
+  justify-content: center;
+}
+.headerholder {
+  width: 85%;
+  height: 67px;
+  /* background-color: grey; */
+  /* border-bottom: 1px solid white; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  width: 80px;
+  font-weight: bold;
+  color: #5c3421;
+}
+.nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 22px;
+}
+
+.nav ul li a {
+  color: black;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bold;
+  opacity: 1;
+  /* background-color: #c69d67; */
+  padding: 4px;
+  border-radius: 3px;
+}
+.nav ul li a:hover {
+  border-bottom: 1px solid #333;
+}
+.hamburger {
+  width: 60px;
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+.hamburger img {
+  width: 100%;
+  height: 100%;
+}
+.cartholder {
+  width: 100%;
+  background-color: #5c3421;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.cartholder2 {
+  width: 85%;
+  margin-top: 30px;
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: center;
+}
+.leftcartholder {
+  width: 67%;
+  display: flex;
+  align-items: center;
+}
+.leftcart {
+  width: 92%;
+  background-color: grey;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  flex-direction: column;
+}
+.cartheader {
+    padding-top: 15px;
+  width: 92%;
+  height: 45px;
+  border-bottom: 1px solid black;
+}
+.cartheader p {
+  font-size: 30px;
+font-weight: bold;
+}
+.cardcontainer {
+    width: 92%;
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.imgandtextholder {
+  display: flex;
+}
+.imgholder {
+  width: 250px;
+  height: 190px;
+  border-radius: 7px;
+  background-color: #f7e9dc;
+  background-image: url(../myproject/projectimg/woman-spending-time-nature-full-shot.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.imgtext{
+    padding-left: 20px;
+}
+.imgtext h3{
+    font-size: 18px;
+}
+.imgtext p{
+    margin-top: 7px;
+    font-size: 16px;
+}
+.price {
+  font-size: 18px;
+  font-weight: bold;
+}
+.rightcart {
+  width: 33%;
+  height: 220px;
+  background: brown;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.rightcartholder {
+  width: 100%;
+  height: 220px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.rightheader {
+    padding-top: 10px;
+  width: 92%;
+  height: 45px;
+  border-bottom: 1px solid black;
+  display: flex;
+  align-items: center;
+}
+.rightheader p {
+  font-size: 20px;
+  font-weight: 500;
+}
+.total {
+  width: 92%;
+  border-bottom: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.total h3 {
+  font-size: 18px;
+}
+.total p {
+  font-size: 18px;
+}
+.payment {
+  width: 200px;
+  height: 50px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
