@@ -1,0 +1,315 @@
+body{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    
+}
+.header {
+    width: 100%;
+    height: 70px;
+    background-color: rgba(255, 255, 255, 0.25);
+    -webkit-backdrop-filter: blur(4px);
+    backdrop-filter: blur(10px);
+    /* border: 1px solid rgba(255,255,255,0.125); */
+    display: flex;
+    justify-content: center;
+  }
+  .headerholder {
+    width: 85%;
+    height: 67px;
+    /* background-color: grey; */
+    /* border-bottom: 1px solid white; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .logo {
+    width: 80px;
+    font-weight: bold;
+    color: #5c3421;
+  }
+  .nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 22px;
+  }
+  
+  .nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    opacity: 1;
+    /* background-color: #c69d67; */
+    padding: 4px;
+    border-radius: 3px;
+  }
+  .nav ul li a:hover {
+    border-bottom: 1px solid #333;
+  }
+  .hamburger {
+    width: 60px;
+    display: none;
+    align-items: center;
+    justify-content: center;
+  }
+  .hamburger img {
+    width: 100%;
+    height: 100%;
+  }
+.heropage{
+    width: 100%;
+    background-color: #d7ba92;
+    display: flex;
+    justify-content: center;
+}
+.heroholder{
+    width: 85%;
+    display: flex;
+    justify-content: center;
+}
+.leftsection{
+    width: 50%;
+    border-right: 1px solid #333;
+    
+}
+.leftholder{
+    width: 92%;
+    /* background-color: blue; */
+
+}
+.Checkout{
+    font-size: 28px;
+    font-weight: bold;
+}
+.shipping{
+    font-size: 18px;
+    font-weight: bold;
+}
+.shippinginfo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.deliver{
+   /* padding: 10px 12px; */
+   width: 180px;
+   height: 40px;
+   border-radius: 3px;
+   background-color: #5c3421;
+   display: flex;
+   padding-left: 15px;
+   align-items: center;
+}
+.Delivery{
+    font-size: 16px;
+    font-weight: bold;
+}
+.deliveryopt{
+    background-color: #5c3421;
+    margin: 10px;
+}
+.pick{
+    width: 150px;
+    height: 35px;
+}
+.pickup{
+    font-size: 16px;
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+}
+.input1{
+    display: flex;
+    flex-direction: column;
+}
+.fullname{
+    font-size: 18px;
+    font-weight: bold;
+}
+.name{
+    width: 400px;
+    height: 40px;
+    border-radius: 3px;
+    border: none;
+}
+.name::placeholder{
+    padding-left:  10px;
+}
+.city{
+    display: flex;
+    justify-content: space-between;
+}
+.city1{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    flex-direction: column;
+}
+.city1 p{
+font-size: 18px;
+font-weight: bold;
+}
+.entercity {
+    width: 100px;
+    height: 30px;
+    border-radius: 3px;
+    border: none;
+    font-size: 12px;
+}
+.entercity::placeholder{
+    padding-left: 5px;
+}
+.checkbox{
+    display: flex;
+    padding-top: 15px;
+}
+.checkbox input{
+width: 17px;
+border-radius: 10px;
+border: none;
+}
+.checkbox p{
+    font-size: 14px;
+    padding-left: 5px;
+    font-weight: 600;
+    display: flex;
+}
+.rightsection{
+    width: 50%;
+    /* background-color: purple; */
+    border-top-left-radius: 1px solis #333;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.rightholder{
+    width: 92%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.Review{
+    font-size: 28px;
+    font-weight: bold;
+}
+.carts{
+    display: flex;
+    flex-direction: column;
+    
+}
+.firstcart{
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+}
+.firstimg{
+    width: 200px;
+    height: 140px;
+    border: 1px solid #333;
+    background-image: url(./myproject/projectimg/woman-spending-time-nature-full-shot.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.firstimg:hover{
+    background-color: #d3cfcc;
+    border: none;
+    cursor: pointer;
+}
+.texts{
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.texts p{
+    font-size: 18px;
+}
+.texts h3{
+    font-size: 20px;
+}
+.secondimg{
+    width: 200px;
+    height: 140px;
+    border: 1px solid #333;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border-radius: 5px;
+    background-image: url(./myproject/projectimg/chic-beach-bag-with-accessories-isolated-transparent-background_191095-17855-removebg-preview.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.secondimg:hover{
+    background-color: #d3cfcc;
+    border: none;
+    cursor: pointer;
+}
+.discountcode{
+    width: 100%;
+    height: 40px;
+    border-radius: 3px;
+    border-bottom: 1px solid #333;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Discountapply{
+    font-size: 17px;
+}
+.apply{
+    font-size: 17px;
+    font-weight: bold;
+}
+.subtotal{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.subtotal1{
+    font-size: 16px;
+}
+.subtotal2{
+    font-size: 16px;
+    font-weight: bold;
+}
+.Payment{
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+}
+.Payment1{
+    font-size: 18px;
+    font-weight: bold;
+}
+.paybutton{
+    height: 40px;
+    width: 100%;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #5c3421;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+

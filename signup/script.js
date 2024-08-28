@@ -38,11 +38,6 @@ const handleRegister = (event) => {
     window.location.href = "signin.html"
       }
   }
-
-
-
-
-
   let cartItems = []
 
 function addToCart(productId, price, name){
@@ -60,16 +55,17 @@ function addToCart(productId, price, name){
     if(!itemExists){
         cartItems.push(product)
     }
+    localStorage.setItem('cartItems', JSON.stringify(cartItems));
     updateCart()
 }
 
 function updateCart() {
   const cartList = document.getElementById("cartItems")
   cartList.textContent = ""
-
+  const cartItem = JSON.parse(localStorage.getItem('cartItems'))
   let total = 0
 
-  cartItems.map((item)=>{
+  cartItem.map((item)=>{
       const list = document.createElement("li")
       list.innerHTML = `
       product name: ${item.name} - Quantity:
