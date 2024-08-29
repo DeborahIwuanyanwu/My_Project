@@ -156,3 +156,9 @@ h1 {
     color: grey;
     margin-top: 14px;
   }
+
+  @media (max-width: 480px){
+    .lefthero{
+      display: none;
+    }
+  }

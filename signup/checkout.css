@@ -1,0 +1,577 @@
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    
+}
+.header {
+    width: 100%;
+    height: 70px;
+    background-color: rgba(255, 255, 255, 0.25);
+    -webkit-backdrop-filter: blur(4px);
+    backdrop-filter: blur(10px);
+    /* border: 1px solid rgba(255,255,255,0.125); */
+    display: flex;
+    justify-content: center;
+  }
+  .headerholder {
+    width: 85%;
+    height: 67px;
+    /* background-color: grey; */
+    /* border-bottom: 1px solid white; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .logo {
+    width: 80px;
+    font-weight: bold;
+    color: #5c3421;
+  }
+  .nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 22px;
+  }
+  
+  .nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    opacity: 1;
+    /* background-color: #c69d67; */
+    padding: 4px;
+    border-radius: 3px;
+  }
+  .nav ul li a:hover {
+    border-bottom: 1px solid #333;
+  }
+  .hamburger {
+    width: 60px;
+    display: none;
+    align-items: center;
+    justify-content: center;
+  }
+  .hamburger img {
+    width: 100%;
+    height: 100%;
+  }
+.heropage{
+    width: 100%;
+    background-color: #ad7949;
+    display: flex;
+    justify-content: center;
+}
+.heroholder{
+    width: 85%;
+    display: flex;
+    justify-content: center;
+}
+.leftsection{
+    width: 50%;
+    border-right: 1px solid #5c3421;
+    
+}
+.leftholder{
+    width: 85%;
+}
+.Checkout{
+    font-size: 28px;
+    font-weight: 900;
+}
+.shipping{
+    font-size: 22px;
+    font-weight: bold;
+}
+.shippinginfo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.deliver{
+   width: 180px;
+   height: 40px;
+   border-radius: 3px;
+   background-color: #5c3421;
+   display: flex;
+   padding-left: 15px;
+   align-items: center;
+}
+.deliverydiv{
+    padding-left: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Delivery{
+    font-size: 17px;
+    font-weight: bold;
+    color: #eee6da;
+}
+.radiodiv{
+    padding-top: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.radiotype{
+    width: 15px;
+}
+.pick{
+    width: 150px;
+    height: 35px;
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+}
+.input1{
+    display: flex;
+    flex-direction: column;
+}
+.fullname{
+    font-size: 18px;
+    font-weight: bold;
+}
+.name{
+    width: 96.2%;
+    height: 40px;
+    border-radius: 3px;
+    border: none;
+}
+.name::placeholder{
+    padding-left:  10px;
+}
+.city{
+    display: flex;
+    justify-content: space-between;
+}
+.city1{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    flex-direction: column;
+}
+.city1 p{
+font-size: 18px;
+font-weight: bold;
+}
+.entercity {
+    width: 100px;
+    height: 40px;
+    border-radius: 3px;
+    border: none;
+    font-size: 12px;
+}
+.entercity::placeholder{
+    padding-left: 5px;
+}
+.checkbox{
+    display: flex;
+    padding-top: 15px;
+    display: flex;
+}
+.checkbox input{
+width: 17px;
+border-radius: 10px;
+border: none;
+}
+
+.checkbox p{
+    padding-top: 2px;
+    font-size: 14px;
+    padding-left: 5px;
+    font-weight: 600;
+    display: flex;
+}
+.rightsection{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.rightholder{
+    width: 92%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.Review{
+    font-size: 28px;
+    font-weight: bold;
+}
+.carts{
+    display: flex;
+    flex-direction: column;
+    
+}
+.firstcart{
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+}
+.firstimg{
+    width: 200px;
+    height: 140px;
+    border: 1px solid #d8c09c;
+    background-image: url(../myproject/projectimg/woman-spending-time-nature-full-shot.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.firstimg:hover{
+    background-color: #eee6da;
+    border: none;
+    cursor: pointer;
+}
+.texts{
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.texts p{
+    font-size: 18px;
+}
+.texts h3{
+    font-size: 20px;
+}
+.secondimg{
+    width: 200px;
+    height: 140px;
+    border: 1px solid #d8c09c;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border-radius: 5px;
+    background-image: url(../myproject/projectimg/chic-beach-bag-with-accessories-isolated-transparent-background_191095-17855-removebg-preview.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.secondimg:hover{
+    background-color: #eee6da;
+    border: none;
+    cursor: pointer;
+}
+.discountcode{
+    width: 100%;
+    height: 40px;
+    border-radius: 3px;
+    border-bottom: 1px solid #5c3421;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Discountapply{
+    font-size: 20px;
+}
+.apply{
+    font-size: 20px;
+    font-weight: bold;
+}
+.subtotal{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.subtotal1{
+    font-size: 18px;
+}
+.subtotal2{
+    font-size: 20px;
+    font-weight: bold;
+}
+.Payment{
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+.Payment1{
+    font-size: 18px;
+    font-weight: bold;
+}
+.paybutton{
+    height: 40px;
+    width: 100%;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #5c3421;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+
+.footerpage{
+    width: 100%;
+    height: 350px;
+    /* margin-top: 35px; */
+    background-color: #d8c09c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .footerholder{
+    width: 85%;
+    height: 100%;
+    /* background-color: green; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .firstfooter{
+    width: 32%;
+    height: 75%;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .footerlogo{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .footerlogoimg{
+    width: 100px;
+    height: 40px;
+    margin-bottom: 10px;
+    background-image: url(../myproject/projectimg/hand-drawn-clothing-store-logo-design_23-2149577874.avif);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .footericons{
+    width: 160px;
+    margin-top: 20px;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+  }
+  .twitter{
+    width: 27px;
+    height: 27px;
+    border: 1px solid #643924;
+    border-radius: 5px;
+    background-image: url(../myproject/projectimg/black-twitter-logo-black-twitter-icon-twitter-symbol-free-free-vector-removebg-preview.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .linkedin{
+    width: 27px;
+    height: 27px;
+    border: 1px solid #643924;
+    border-radius: 5px;
+    background-image: url(../myproject/projectimg/6bab3017350ca04c6fa05569672bd31e.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .facebook{
+    width: 27px;
+    height: 27px;
+    border: 1px solid #643924;
+    border-radius: 5px;
+    background-image: url(../myproject/projectimg/png-transparent-crescent-arts-centre-facebook-inc-computer-icons-black-facebook-thumbnail-removebg-preview.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .instagram{
+    width: 27px;
+    height: 27px;
+    border: 1px solid #643924;
+    border-radius: 4px;
+    background-image: url(../myproject/projectimg/png-transparent-instagram-social-media-instagram-black-social-social-media-logo-icon-removebg-preview.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .exclusively{
+    width: 100%;
+  }
+  .exclusively h3{
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  .exclusively p{
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .footerproductholder{
+    width: 38%;
+    height: 75%;
+    display: flex;
+    align-items: center;
+  }
+  .footerrightside{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  .footerproduct{
+    width: 180px;
+    height: 200px;
+  }
+  .Product{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  .products{
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+  .newsletter{
+      width: 30%;
+      height: 75%;
+      margin-top: 3px;
+       /* background-color: blueviolet; */
+      display: flex;
+      flex-direction: column;
+    }
+    .newsletter h3{
+      font-size: 18px;
+      margin-bottom: 6px;
+    }
+    .newsletter p{
+      font-size: 16px;
+      font-weight: 500;
+      margin-top: 10px;
+      margin-bottom: 12px;
+    }
+    input{
+      width: 230px;
+      height: 40px;
+      background-color: white;
+      border-radius: 3px;
+      margin-bottom: 10px;
+      padding: 0px 10px;
+      border: 1px solid #643924;
+      cursor: pointer;
+    }
+    input::placeholder{
+      padding: 0px 10px;
+    }
+    button{
+      width: 200px;
+      height: 40px;
+      background-color: #643924;
+      color: white;
+      border-radius: 3px;
+      font-size: 14px;
+      font-weight: bold;
+      cursor: pointer;
+      border: none;
+    }
+    
+    @media (min-width: 430px) and (max-width: 480px){
+        .heroholder{
+            display: flex;
+            flex-direction: column;
+        }
+        .leftsection{
+            border: none;
+            width: 100%;
+        }
+        .leftholder{
+            width: 100%;
+        }
+        .deliver{
+            width: 130px;
+        }
+        .Delivery{
+            font-size: 16px;
+        }
+        .name{
+            width: 94%;
+        }
+        .city1{
+            display: flex;
+            justify-content: center;
+        }
+        .checkbox{
+            padding-top: 5px;
+        }
+        .checkbox p{
+            font-size: 14px;
+        }
+        .rightsection{
+            width: 100%;
+        }
+        .rightholder{
+            width: 100%;
+        }
+        .footerpage {
+            height: auto;
+            display: flex;
+            /* justify-content: center; */
+          }
+          .footerholder {
+            margin-top: 20px;
+            display: flex;
+            flex-direction: column-reverse;
+          }
+          .firstfooter {
+            width: 100%;
+            margin-top: 15px;
+            margin-bottom: 20px;
+          }
+          .footerproductholder {
+            /* margin-top: 15px; */
+            padding-bottom: 30px;
+            margin-bottom: 10px;
+            width: 100%;
+            border-bottom: 1px solid #333;
+          }
+          .footerrightside {
+            display: flex;
+          }
+          .newsletter {
+            width: 100%;
+            border-bottom: 1px solid #333;
+          }
+          button {
+            width: 150px;
+            margin-bottom: 20px;
+          }
+          .footerlogoimg {
+            margin-bottom: 20px;
+          }
+          .exclusively {
+            margin-top: 20px;
+          }
+          .exclusively h3 {
+            font-size: 18px;
+          }
+          .exclusively p {
+            font-size: 16px;
+          }
+        
+    }

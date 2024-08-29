@@ -1,0 +1,749 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.heropage {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../myproject/projectimg/simple-elegant-background-beautiful_1085074-41141.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.heroholder {
+  width: 85%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.herotexts {
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.herobigtext {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.bigtext {
+  font-size: 50px;
+}
+.herosearch {
+  width: 400px;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+  font-size: 14px;
+}
+.herosearch::placeholder {
+  padding-left: 10px;
+}
+.smalltextdiv {
+  width: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.smalltext {
+  font-size: 18px;
+}
+.herocards {
+  width: 100%;
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.firstherocard {
+  width: 250px;
+  height: 250px;
+  border-radius: 5px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.firstherocard1 {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.heroimg {
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.heroicon {
+  width: 100px;
+  height: 100px;
+  background-image: url(../myproject/projectimg/illustration-blank-sign-vector_53876-6666-removebg-preview.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.heroicontext {
+  line-height: 1px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.heroicontext h3 {
+  font-size: 20px;
+}
+.heroicontext p {
+  line-height: 20px;
+  font-size: 16px;
+  text-align: center;
+}
+.heroimg2 {
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.heroicon2 {
+  width: 100px;
+  height: 100px;
+  background-image: url(../myproject/projectimg/download.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.heroimg3 {
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.heroicon3 {
+  width: 100px;
+  height: 100px;
+  background-image: url(../myproject/projectimg/download\ \(4\).png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.secondsection {
+  width: 100%;
+  background-color: #ad7949;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.secondsectionholder {
+  width: 85%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.secondsectionleft {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+}
+.secondleftholder {
+  width: 600px;
+  height: 550px;
+  background-color: #ddba8c;
+  border-radius: 3px;
+  display: flex;
+  flex-direction: column;
+}
+.leftheader {
+  padding-left: 23px;
+  line-height: 1px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.leftheader p {
+  font-size: 18px;
+}
+.leftheader h2 {
+  font-size: 35px;
+}
+.inputs {
+  display: flex;
+  flex-direction: column;
+  padding-left: 30px;
+}
+.inputs1 {
+  display: flex;
+  flex-direction: column;
+}
+.FirstName1 {
+  font-size: 16px;
+  font-weight: bold;
+}
+.name1 {
+  width: 500px;
+  height: 40px;
+  background-color: rgb(243, 240, 240);
+  border-radius: 3px;
+  border: none;
+}
+.name1::placeholder {
+  padding-left: 10px;
+}
+.textarea {
+  padding-left: 23px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.Typemessage {
+  width: 500px;
+  height: 80px;
+  border: none;
+  border-radius: 3px;
+}
+.textarea1 {
+  font-size: 16px;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+.secondsectionright {
+  width: 40%;
+  background-color: #ddba8c;
+  display: flex;
+  flex-direction: column;
+}
+.rightholder {
+  width: 100%;
+  height: 550px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.rightside {
+  width: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.rightsidetext {
+  font-size: 18px;
+  text-align: center;
+  font-weight: bold;
+}
+.phonesholders {
+  gap: 6px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.phones {
+  gap: 6px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.phonecards {
+  width: 220px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.phoneiconholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.phoneicon {
+  width: 200px;
+  height: 150px;
+  background-image: url(../myproject/projectimg/download\ \(5\).png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.phonetext {
+  line-height: 1px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.phonetext h3 {
+  font-size: 16px;
+}
+.phonetext p {
+  font-size: 16px;
+  font-weight: 500;
+}
+.phones2 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.phonecards2 {
+  width: 220px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.phoneicon2 {
+  width: 150px;
+  height: 150px;
+  background-image: url(../myproject/projectimg/download\ \(6\).png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.phoneicon3 {
+  width: 150px;
+  height: 150px;
+  background-image: url(../myproject/projectimg/download\ \(7\).png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.phoneicon4 {
+  width: 150px;
+  height: 150px;
+  background-image: url(../myproject/projectimg/download\ \(8\).png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.thirdsection {
+  width: 100%;
+  background-color: #d68137 aliceblue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.thirdheader {
+  width: 100%;
+  height: 170px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.thirdholder {
+  width: 500px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.thirdholder h1 {
+  font-size: 30px;
+  text-align: center;
+}
+
+.thirdsectionholder {
+  width: 85%;
+  padding-bottom: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.thirdleft {
+  width: 50%;
+  height: 550px;
+  background-color: #ad7949;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.thirdleftholder {
+  width: 100%;
+  padding-left: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.thirdleftinputdiv {
+  gap: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.thirdleftinputtext {
+  width: 500px;
+  height: 50px;
+  background-color: white;
+  border-radius: 3px;
+  border: none;
+  display: flex;
+  justify-content: space-between;
+}
+.thirdleftinputtext p {
+  font-size: 14px;
+  font-weight: bold;
+}
+.checkbox {
+  width: 18px;
+}
+.thirdleftmidtext {
+  width: 500px;
+  line-height: 20px;
+  margin-bottom: 20px;
+}
+.thirdleftmidtext p {
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+}
+.thirdright {
+  width: 50%;
+  height: 550px;
+  background-image: url(../myproject/projectimg/medium-shot-female-economist-working-office_23-2150251736.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.footerpage {
+  width: 100%;
+  height: 350px;
+  /* margin-top: 35px; */
+  background-color: #d8c09c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footerholder {
+  width: 85%;
+  height: 100%;
+  /* background-color: green; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.firstfooter {
+  width: 32%;
+  height: 75%;
+  padding-top: 40px;
+  /* background-color: blue; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.footerlogo {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.footerlogoimg {
+  width: 100px;
+  height: 40px;
+  margin-bottom: 10px;
+  background-image: url(../myproject/projectimg/hand-drawn-clothing-store-logo-design_23-2149577874.avif);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.footericons {
+  width: 160px;
+  margin-top: 20px;
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: space-between;
+}
+.twitter {
+  width: 27px;
+  height: 27px;
+  border: 1px solid #643924;
+  border-radius: 5px;
+  background-image: url(../myproject/projectimg/black-twitter-logo-black-twitter-icon-twitter-symbol-free-free-vector-removebg-preview.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.linkedin {
+  width: 27px;
+  height: 27px;
+  border: 1px solid #643924;
+  border-radius: 5px;
+  background-image: url(../myproject/projectimg/6bab3017350ca04c6fa05569672bd31e.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.facebook {
+  width: 27px;
+  height: 27px;
+  border: 1px solid #643924;
+  border-radius: 5px;
+  background-image: url(../myproject/projectimg/png-transparent-crescent-arts-centre-facebook-inc-computer-icons-black-facebook-thumbnail-removebg-preview.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.instagram {
+  width: 27px;
+  height: 27px;
+  border: 1px solid #643924;
+  border-radius: 4px;
+  background-image: url(../myproject/projectimg/png-transparent-instagram-social-media-instagram-black-social-social-media-logo-icon-removebg-preview.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.exclusively {
+  width: 100%;
+}
+.exclusively h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+.exclusively p {
+  font-size: 16px;
+  font-weight: 500;
+}
+.footerproductholder {
+  width: 38%;
+  height: 75%;
+  display: flex;
+  align-items: center;
+}
+.footerrightside {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.footerproduct {
+  width: 180px;
+  height: 200px;
+}
+.Product {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.products {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.newsletter {
+  width: 30%;
+  height: 75%;
+  margin-top: 3px;
+  /* background-color: blueviolet; */
+  display: flex;
+  flex-direction: column;
+}
+.newsletter h3 {
+  font-size: 18px;
+  margin-bottom: 6px;
+}
+.newsletter p {
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 10px;
+  margin-bottom: 12px;
+}
+input {
+  width: 230px;
+  height: 40px;
+  background-color: white;
+  border-radius: 3px;
+  margin-bottom: 10px;
+  padding: 0px 10px;
+  border: 1px solid #643924;
+  cursor: pointer;
+}
+input::placeholder {
+  padding: 0px 10px;
+}
+button {
+  width: 200px;
+  height: 40px;
+  background-color: #643924;
+  color: white;
+  border-radius: 3px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+}
+
+@media (min-width: 430px) and (max-width: 480px) {
+  .heropage {
+    width: 100%;
+    height: auto;
+    background-image: url(./myproject/projectimg/simple-elegant-background-beautiful_1085074-41141.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .heroholder {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .bigtext {
+    font-size: 35px;
+  }
+  .herosearch {
+    width: 300px;
+    border-radius: 18px;
+  }
+  .smalltext {
+    font-size: 17px;
+  }
+  .herocards {
+    width: 100%;
+    gap: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .firstherocard {
+    width: 230px;
+    height: 230px;
+  }
+  .firstherocard1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .heroicontext h3 {
+    font-size: 18px;
+  }
+  .heroicontext p {
+    font-size: 14px;
+  }
+  .heroicon {
+    width: 80px;
+    height: 80px;
+  }
+  .heroicon2 {
+    width: 80px;
+    height: 80px;
+  }
+  .heroicon3 {
+    width: 80px;
+    height: 80px;
+  }
+  .secondsection {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .secondsectionholder {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .secondsectionleft {
+    width: 100%;
+    height: 580px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .secondleftholder {
+    width: 100%;
+    padding-top: 30px;
+  }
+  .inputs {
+    width: 100%;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+  }
+  .name1 {
+    width: 350px;
+  }
+  .textarea {
+    margin-left: 7px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+  }
+  .Typemessage {
+    width: 350px;
+  }
+  .secondsectionright {
+    width: 100%;
+    border-top: 1px solid #f7e9dc;
+  }
+  .rightholder {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .phonesholders {
+    display: flex;
+    justify-content: center;
+  }
+  .phones {
+    width: 100%;
+  }
+  .thirdholder {
+    width: 100%;
+  }
+  .thirdholder h1 {
+    font-size: 29px;
+  }
+  .thirdsectionholder {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+}

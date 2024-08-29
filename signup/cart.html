@@ -1,67 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href=".//cart.css">
-</head>
-<body class="body">
+    <link rel="stylesheet" href=".//cart.css" />
+  </head>
+  <body class="body">
     <div class="header">
-        <div class="headerholder">
-            <div class="logo">DeBbY</div>
-            <nav id="nav" class="nav">
-                <ul>
-                    <li><a href="project.html">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="products.html">Product</a></li>
-                    <li><a href="Contact Us">Detail</a></li>
-                </ul>
-            </nav>
-            <div class="hamburger" id="hamburger">
-               <img src="../myproject/projectimg/hamburger-menu-icon-svg-11-removebg-preview.png"/>
-            </div>
+      <div class="headerholder">
+        <div class="logo">DeBbY</div>
+        <nav id="nav" class="nav">
+          <ul>
+            <li><a href="project.html">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="products.html">Product</a></li>
+            <li><a href="Contact Us">Detail</a></li>
+          </ul>
+        </nav>
+        <div class="hamburger" id="hamburger">
+          <img
+            src="../myproject/projectimg/hamburger-menu-icon-svg-11-removebg-preview.png"
+          />
         </div>
+      </div>
     </div>
 
     <div class="cartholder">
-        <div class="cartholder2">
-            <div class="leftcartholder">
-                <div class="leftcart">
-                    <div class="cartheader">
-                        <p>My Cart</p>
-                    </div>
-                    <div class="cardcontainer">
-                        <div class="imgandtextholder">
-                            <div class="imgholder">
-                            </div>
-                            <div class="imgtext">
-                                <h3>Men's Crossbody Bags</h3>
-                                <p imgsmalltext>Bag</p>
-                            </div>
-                        </div>
-
-                        <div class="price">#0</div>
-                    </div>
-                   
-                    
-                </div>
+      <div class="cartholder2">
+        <div class="leftcartholder">
+          <div class="leftcart">
+            <div class="cartheader">
+              <p>My Cart</p>
             </div>
-            <div class="rightcart">
-                <div class="rightcartholder">
-                    <div class="rightheader">
-                        <p>Cart Summary</p>
-                    </div>
-
-                    <div class="total">
-                        <p>Total:</p>
-                        <h3>#0.00</h3>
-                    </div>
-
-                    <button class="payment">Checkout</button>
+           <div class="cardholder" id="cardHolder">
+              <!-- <div class="cardcontainer">
+                <div class="imgandtextholder">
+                  <div class="imgholder"></div>
+                  <div class="imgtext">
+                    <h3>Men's Crossbody Bags</h3>
+                    <p imgsmalltext>Bag</p>
+                  </div>
                 </div>
-            </div>
+                <div class="price">#0</div>
+              </div> -->
+           </div>
+          </div>
         </div>
+        <div class="rightcart">
+          <div class="rightcartholder">
+            <div class="rightheader">
+              <p>Cart Summary</p>
+            </div>
+
+            <div class="total">
+              <p>Total:</p>
+              <h3 id="Total">#0.00</h3>
+            </div>
+
+            <button class="payment">Checkout</button>
+          </div>
+        </div>
+      </div>
     </div>
-</body>
+    <script src="cart.js"></script>
+  </body>
 </html>

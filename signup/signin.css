@@ -59,8 +59,9 @@ h1 {
   flex-direction: column;
 }
 .firstinput {
-  width: 400px;
+  width: 380px;
   height: 40px;
+  padding: 0px 10px;
   border-radius: 3px;
   margin-top: 20px;
   border: 1px solid grey;
@@ -69,7 +70,6 @@ h1 {
 .firstinput::placeholder {
   font-size: 12px;
   font-weight: 500;
-  padding-left: 10px;
   color: grey;
 }
 .signinbutton {
@@ -165,4 +165,9 @@ h1 {
   border-bottom-left-radius: 70px;
   object-fit: cover;
   object-position: center;
+}
+@media (max-width: 480px){
+  .righthero{
+    display: none;
+  }
 }

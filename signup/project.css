@@ -3,7 +3,7 @@
   margin: 0;
 }
 .body {
-  font-family: "Open Sans", sans-serif;
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -35,18 +35,42 @@
   /* border: 1px solid rgba(255,255,255,0.125); */
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 .headerholder {
   width: 92%;
   height: 67px;
-  /* background-color: grey; */
-  /* border-bottom: 1px solid white; */
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+.headericons{
+  width: 55px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.headericons1{
+  width: 25px;
+  height: 25px;
+  background-image: url(../myproject/projectimg/free-user-icon-3296-thumb-removebg-preview.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.headericons2{
+  width: 25px;
+  height: 25px;
+  background-image: url(../myproject/projectimg/cart-icon-512x512-s79qyenk-removebg-preview.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 .logo {
   width: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-weight: bold;
   color: #5c3421;
 }
@@ -64,8 +88,7 @@
   font-size: 15px;
   font-weight: bold;
   opacity: 1;
-  /* background-color: #c69d67; */
-  padding: 4px;
+  padding: 2px;
   border-radius: 3px;
 }
 .nav ul li a:hover{
@@ -104,20 +127,12 @@
   color: white;
 }
 .mberhero {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 500;
 }
 .specialoffers {
-  font-size: 45px;
+  font-size: 50px;
   margin-top: 15px;
-}
-
-.herobutton {
-  width: 200px;
-  height: 50px;
-  background-color: #c69d67;
-  color: white;
-  border: none;
 }
 .italics {
   font-style: italic;
@@ -125,6 +140,13 @@
   margin-top: 5px;
   margin-bottom: 20px;
   font-weight: 100;
+}
+.herobutton {
+  width: 200px;
+  height: 50px;
+  background-color: #c69d67;
+  color: white;
+  border: none;
 }
 .secondsection {
   background-color: #5c3421;
@@ -827,14 +849,14 @@ display: flex;
   /* justify-content: center; */
 }
 .thirdleftholder {
-  width: 410px;
+  width: 520px;
   /* background-color: blue; */
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 .thirdleftholder h1 {
-  font-size: 46px;
+  font-size: 65px;
   color: #3d1b0b;
 }
 .thirdleftholder h3 {
@@ -1215,7 +1237,7 @@ cursor: pointer;
   justify-content: center;
 }
 .footerholder{
-  width: 85%;
+  width: 92%;
   height: 100%;
   /* background-color: green; */
   display: flex;
@@ -1375,13 +1397,13 @@ cursor: pointer;
     cursor: pointer;
     border: none;
   }
-@media (min-width: 430px) and(max-width: 480px) {
+@media (max-width: 480px) {
   .nav {
     display: none;
     width: 78%;
     height: calc(100vh - 70px);
     position: fixed;
-    top: 90px;
+    top: 67px;
     right: 0;
     background-color: grey;
   }
@@ -1458,9 +1480,9 @@ cursor: pointer;
     font-weight: 100;
   }
 }
-@media (min-width: 430px) and (max-width: 480px) {
+@media  (max-width: 480px) {
   .secondsection {
-    background-color: #e09f7d;
+    /* background-color: #e09f7d; */
     width: 100%;
     display: flex;
     justify-content: center;
@@ -1580,7 +1602,7 @@ cursor: pointer;
     display: none;
   }
   .cards {
-    width: 211px;
+    width: 205px;
     height: 300px;
     border-radius: 3px;
     display: flex;
@@ -1617,7 +1639,7 @@ cursor: pointer;
   }
 
   .cards2 {
-    width: 211px;
+    width: 205px;
     height: 300px;
     border-radius: 3px;
     display: flex;
@@ -1652,7 +1674,7 @@ cursor: pointer;
     margin-top: 5px;
   }
   .cards3 {
-    width: 211px;
+    width: 205px;
     height: 300px;
     border-radius: 3px;
     display: flex;
@@ -1687,7 +1709,7 @@ cursor: pointer;
     margin-top: 5px;
   }
   .cards4 {
-    width: 211px;
+    width: 205px;
     height: 300px;
     border-radius: 3px;
     display: flex;
@@ -1722,7 +1744,7 @@ cursor: pointer;
     margin-top: 5px;
   }
   .cards5 {
-    width: 211px;
+    width: 205px;
     height: 300px;
     border-radius: 3px;
     display: flex;
@@ -1755,7 +1777,7 @@ cursor: pointer;
     margin-top: 5px;
   }
   .cards6 {
-    width: 211px;
+    width: 205px;
     height: 300px;
     border-radius: 3px;
     display: flex;
@@ -2047,48 +2069,49 @@ cursor: pointer;
 }
 
 @media (min-width: 450px) and (max-width: 480px) {
-  .footerpage{
+  .footerpage {
     height: auto;
     display: flex;
-
+    /* justify-content: center; */
   }
-  .footerholder{
+  .footerholder {
     margin-top: 20px;
     display: flex;
     flex-direction: column-reverse;
   }
-  .firstfooter{
+  .firstfooter {
     width: 100%;
     margin-top: 15px;
     margin-bottom: 20px;
   }
-  .footerproductholder{
-    margin-top: 18px;
+  .footerproductholder {
+    /* margin-top: 15px; */
+    padding-bottom: 30px;
     margin-bottom: 10px;
     width: 100%;
     border-bottom: 1px solid #333;
   }
-  .footerrightside{
+  .footerrightside {
     display: flex;
   }
-  .newsletter{
+  .newsletter {
     width: 100%;
     border-bottom: 1px solid #333;
   }
-  button{
+  button {
     width: 150px;
     margin-bottom: 20px;
   }
-  .footerlogoimg{
+  .footerlogoimg {
     margin-bottom: 20px;
   }
-  .exclusively{
+  .exclusively {
     margin-top: 20px;
   }
-  .exclusively h3{
+  .exclusively h3 {
     font-size: 18px;
   }
-  .exclusively p{
+  .exclusively p {
     font-size: 16px;
   }
 }

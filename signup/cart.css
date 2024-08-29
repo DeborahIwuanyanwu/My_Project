@@ -94,17 +94,20 @@ body {
   flex-direction: column;
 }
 .cartheader {
-    padding-top: 15px;
+  padding-top: 15px;
   width: 92%;
   height: 45px;
   border-bottom: 1px solid black;
 }
 .cartheader p {
   font-size: 30px;
-font-weight: bold;
+  font-weight: bold;
+}
+.cardholder {
+  width: 92%;
 }
 .cardcontainer {
-    width: 92%;
+  width: 92%;
   padding-top: 30px;
   display: flex;
   justify-content: space-between;
@@ -117,20 +120,26 @@ font-weight: bold;
   height: 190px;
   border-radius: 7px;
   background-color: #f7e9dc;
-  background-image: url(../myproject/projectimg/woman-spending-time-nature-full-shot.png);
-  background-size: cover;
+  /* background-image: url(../myproject/projectimg/woman-spending-time-nature-full-shot.png); */
+  /* background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
 }
-.imgtext{
-    padding-left: 20px;
+.imgholder img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
 }
-.imgtext h3{
-    font-size: 18px;
+.imgtext {
+  padding-left: 20px;
 }
-.imgtext p{
-    margin-top: 7px;
-    font-size: 16px;
+.imgtext h3 {
+  font-size: 18px;
+}
+.imgtext p {
+  margin-top: 7px;
+  font-size: 16px;
 }
 .price {
   font-size: 18px;
@@ -155,7 +164,7 @@ font-weight: bold;
   justify-content: space-between;
 }
 .rightheader {
-    padding-top: 10px;
+  padding-top: 10px;
   width: 92%;
   height: 45px;
   border-bottom: 1px solid black;
@@ -178,6 +187,7 @@ font-weight: bold;
 }
 .total p {
   font-size: 18px;
+  font-weight: bold;
 }
 .payment {
   width: 200px;
@@ -188,4 +198,38 @@ font-weight: bold;
   font-size: 15px;
   font-weight: bold;
   margin-bottom: 10px;
+}
+
+@media (min-width: 430px) and (max-width: 480px) {
+  .cartholder {
+    width: 100%;
+  }
+  .cartholder2 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .leftcartholder {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .cardholder {
+    margin-bottom: 10px;
+  }
+  .imgholder {
+    width: 150px;
+    height: 150px;
+  }
+  .imgtext h3 {
+    font-size: 15px;
+  }
+  .rightcart{
+    width: 92%;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
 }
