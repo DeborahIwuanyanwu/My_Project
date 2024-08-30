@@ -9,8 +9,6 @@
   flex-direction: column;
   justify-content: center;
 }
-
-
 .firstsection {
   width: 100%;
   height: 100vh;
@@ -1404,8 +1402,9 @@ cursor: pointer;
     height: calc(100vh - 70px);
     position: fixed;
     top: 67px;
-    right: 0;
-    background-color: grey;
+    left: 0;
+    background-color: #d8c09c;
+
   }
   .nav ul {
     display: flex;
@@ -1416,7 +1415,7 @@ cursor: pointer;
     text-align: center;
     width: 300px;
     padding: 10px 0;
-    border-bottom: 2px solid white;
+    border-bottom: 1px solid #3d1b0b;
   }
   .hamburger {
     display: flex;
@@ -1616,7 +1615,7 @@ cursor: pointer;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url(../myproject/projectimg/colorful-knitted-bag-still-life_23-2150709497-removebg-preview.png);
+    
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -1653,7 +1652,7 @@ cursor: pointer;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url(../myproject/projectimg/colorful-knitted-bag-still-life_23-2150709497-removebg-preview.png);
+    
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -1688,7 +1687,7 @@ cursor: pointer;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url(../myproject/projectimg/colorful-knitted-bag-still-life_23-2150709497-removebg-preview.png);
+    
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -1723,7 +1722,7 @@ cursor: pointer;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url(../myproject/projectimg/colorful-knitted-bag-still-life_23-2150709497-removebg-preview.png);
+   
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -1758,7 +1757,6 @@ cursor: pointer;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url(../myproject/projectimg/colorful-knitted-bag-still-life_23-2150709497-removebg-preview.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -1791,7 +1789,7 @@ cursor: pointer;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url(../myproject/projectimg/colorful-knitted-bag-still-life_23-2150709497-removebg-preview.png);
+   
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -1897,7 +1895,6 @@ cursor: pointer;
   .quotes {
     width: 95px;
     height: 25px;
-    background-image: url(../myproject/projectimg/479901-200-removebg-preview.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -1915,7 +1912,7 @@ cursor: pointer;
     width: 30px;
     height: 30px;
     border-radius: 50px;
-    background-image: url(../myproject/projectimg/international-day-education-celebration_23-2150931024.jpg);
+  
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -2034,7 +2031,6 @@ cursor: pointer;
     /* background-color: #d3d3d3; */
     display: flex;
     align-items: flex-end;
-    background-image: url(../myproject/projectimg/40b58e6187b9c11e7fc627a4e7b8ac88-removebg-preview.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -2046,7 +2042,6 @@ cursor: pointer;
     /* background-color: lightgray; */
     display: flex;
     align-items: flex-end;
-    background-image: url(../myproject/projectimg/40b58e6187b9c11e7fc627a4e7b8ac88-removebg-preview.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -2068,7 +2063,7 @@ cursor: pointer;
   
 }
 
-@media (min-width: 450px) and (max-width: 480px) {
+@media (max-width: 480px) {
   .footerpage {
     height: auto;
     display: flex;
