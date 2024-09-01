@@ -29,15 +29,15 @@
     </div>
 
     <div class="heropage">
-        <div class="heroholder">
+        <form class="heroholder" onsubmit="userInputs()">
             <div class="leftsection">
 <div class="leftholder">
     <p class="Checkout"> Checkout</p>
     <p class="shipping"> Shipping Information</p>
     <div class="shippinginfo">
         <div class="deliver">
-            <div class="radiodiv"><input type="radio" class="radiotype"></div>
-            <div class="deliverydiv"><p class="Delivery">Delivery</p></div>
+            <div class="radiodiv"><input type="radio" class="radiotype" ></div>
+            <div class="deliverydiv"><p class="Delivery" >Delivery</p></div>
         </div>
 
         <div class="deliver">
@@ -49,38 +49,38 @@
     <div class="inputs">
         <div class="input1">
             <p class="fullname">Full name</p>
-            <input type="text" placeholder="e.g Brandon Jay" class="name">
+            <input type="text" placeholder="e.g Brandon Jay" class="name" id="Fullname" required>
         </div>
     
         <div class="input1">
             <p class="fullname">Email address</p>
-            <input type="email" placeholder="e.g brandonkk@gmail.com" class="name">
+            <input type="email" placeholder="e.g brandonkk@gmail.com" class="name" id="Enteremail" required>
         </div>
     
         <div class="input1">
             <p class="fullname">Phone number</p>
-            <input type="number" placeholder="e.g +234 -" class="name">
+            <input type="number" placeholder="e.g +234 -" class="name" id="Phonenumber" required>
         </div>
     </div>
     <div class="city">
-        <div class="city1">
+        <div class="city1" >
             <p>City</p>
-            <input type="text" placeholder="Enter city" class="entercity">
+            <input type="text" placeholder="Enter city" class="entercity" id="Cityinput" required>
         </div>
 
-        <div class="city1">
+        <div class="city1" >
             <p>State</p>
-            <input type="text" placeholder="Enter State" class="entercity">
+            <input type="text" placeholder="Enter State" class="entercity" id="Stateinput" required>
         </div>
 
-        <div class="city1">
+        <div class="city1" >
             <p>Zip Code</p>
-            <input type="text" placeholder="Enter Zip Code" class="entercity">
+            <input type="text" placeholder="Enter Zip Code" class="entercity" id="zipcodeinput" required>
         </div>
     </div>
     
     <div class="checkbox">
-        <input type="checkbox">
+        <input type="checkbox" id="checkbox" required>
         <p>I have read and agree to the Terms and Conditions</p>
     </div>
 </div>
@@ -117,7 +117,7 @@
 
                     <div class="subtotal">
                         <p class="subtotal1">Subtotal</p>
-                        <p class="Payment">#2,000.00</p>
+                        <p class="Payment" id="cartItems" >₦ </p>
                     </div>
 
                     <div class="subtotal">
@@ -133,7 +133,7 @@
 
                    <button class="paybutton">PAY NOW</button>
                 </div>
-            </div>
+            </form>
         </div>
     </div>
 
@@ -199,6 +199,35 @@
         </div>
         </div>
         </div> 
-        <script src="script.js"></script>
+        <script>
+            
+            const userInputs = (event) =>{
+const Fullname = document.getElementById("Fullname").value
+const emailAddress = document.getElementById("Enteremail").value
+const Phonenumber = document.getElementById("Fullname").value
+const city = document.getElementById("Cityinput").value
+const State = document.getElementById("Stateinput").value
+const zipcode = document.getElementById("zipcodeinput").value
+const checkbox = document.getElementById("checkbox").value
+
+const userData ={Fullname, emailAddress, Phonenumber, city, State, zipcode, checkbox}
+localStorage.setItem("userData", JSON.stringify(userData))
+
+alert("Order placed Successfully!")
+}
+
+function getCart(){
+    let display = JSON.parse(localStorage.getItem("cartItems"))
+    console.log("text", display)
+    const cartTotal = document.getElementById("cartTotal")
+    display.forEach((item) =>{
+        totalAmount += item.price * item.quantity
+        cartTotal.innerText = totalAmount.toFixed(2)
+    })
+    console.log(totalAmount, 'amount')
+}
+getCart()
+console.log(totalAmount, 'amount')
+        </script>
 </body>
 </html>

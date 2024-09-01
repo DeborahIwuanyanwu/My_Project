@@ -39,6 +39,7 @@ const handleLogin = (event) => {
 let cartItems = [];
 
 function addToCart(productId, price, name, image) {
+  const cartItems = JSON.parse(localStorage.getItem("cartItems"));
   const product = {
     id: productId,
     price: price,

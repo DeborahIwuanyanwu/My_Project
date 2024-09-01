@@ -9,11 +9,13 @@ body {
   justify-content: center;
   flex-direction: column;
 }
-
+a{
+  text-decoration: none;
+}
 .header {
   width: 100%;
   height: 70px;
-  background-color: rgba(255,255,255,0.25);
+  background-color: rgba(255, 255, 255, 0.25);
   -webkit-backdrop-filter: blur(4px);
   backdrop-filter: blur(10px);
   /* border: 1px solid rgba(255,255,255,0.125); */
@@ -28,27 +30,56 @@ body {
   justify-content: space-between;
   align-items: center;
 }
-.headericons{
+.headericons {
   width: 55px;
+  gap: 10px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.headericons1{
-  width: 25px;
-  height: 25px;
+.headericons1 {
+  width: 30px;
+  height: 30px;
   background-image: url(../myproject/projectimg/free-user-icon-3296-thumb-removebg-preview.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
-.headericons2{
-  width: 25px;
-  height: 25px;
+.headericons2 {
+  width: 30px;
+  height: 30px;
   background-image: url(../myproject/projectimg/cart-icon-512x512-s79qyenk-removebg-preview.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  display: flex;
+  justify-content: flex-end;
+}
+.iconcirclediv{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 7px;
+  margin-bottom: 20px;
+}
+.iconcircle{
+  width: 16px;
+  height: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 12px;
+  color: black;
+  text-decoration: none;
+  background-color: white;
+  border-radius: 50px;
+}
+.iconcircle:hover{
+  text-decoration: none;
+}
+.headericons2:hover{
+  text-decoration: none;
 }
 .logo {
   width: 80px;
@@ -75,7 +106,7 @@ body {
   padding: 2px;
   border-radius: 3px;
 }
-.nav ul li a:hover{
+.nav ul li a:hover {
   border-bottom: 1px solid #fff;
 }
 .hamburger {
@@ -88,6 +119,7 @@ body {
   width: 100%;
   height: 100%;
 }
+
 .cartholder {
   width: 100%;
   background-color: #ad7949;
@@ -131,10 +163,11 @@ body {
   width: 92%;
 }
 .cardcontainer {
-  width: 92%;
+  width: 100%;
   padding-top: 30px;
   display: flex;
   justify-content: space-between;
+  align-items: flex-start;
 }
 .imgandtextholder {
   display: flex;
@@ -164,6 +197,19 @@ body {
 .price {
   font-size: 18px;
   font-weight: bold;
+}
+.delete{
+  width: 30px;
+  height: 30px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.delete img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 .rightcart {
   width: 33%;
@@ -198,6 +244,7 @@ body {
 }
 .total {
   width: 92%;
+  padding-bottom: 10px;
   border-bottom: 1px solid black;
   display: flex;
   justify-content: space-between;
@@ -220,6 +267,10 @@ body {
   font-size: 15px;
   font-weight: bold;
   margin-bottom: 10px;
+}
+.payment:hover{
+  background-color: black;
+  color: white;
 }
 .footerpage{
   width: 100%;

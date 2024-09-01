@@ -23,7 +23,7 @@
             <div class="logo">DeBbY</div>
             <div class="headericons">
                <a href="profile.html"> <div class="headericons1"></div></a>
-                <a href="cart.html"><div class="headericons2"></div></a>
+                <a href="cart.html"><div class="headericons2"><div class="iconcirclediv"><div class="iconcircle" id="iconcircle">1</div></div></div></a>
             </div>
         </div>
     </div>
@@ -118,6 +118,8 @@
         </div>
         </div> 
       <script>
+
+        
         let cartItems = []
 
         function increaseQty(){
@@ -136,6 +138,16 @@ const newValue = value - 1
 document.getElementById("number").innerHTML = newValue
 }
 }
+
+const hamburger = () =>{
+    const nav = document.getElementById(("nav"))
+    nav.classList.toggle("open")
+  }
+  document.getElementById("hamburger").addEventListener("click", hamburger)
+
+  const cartItem = JSON.parse(localStorage.getItem("cartItems"));
+
+  document.getElementById('iconcircle').innerText = cartItem.length
       </script>
 </body>
 </html>

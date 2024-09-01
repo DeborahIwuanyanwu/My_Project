@@ -23,7 +23,7 @@
           <div class="logo">DeBbY</div>
           <div class="headericons">
              <a href="profile.html"> <div class="headericons1"></div></a>
-              <a href="cart.html"><div class="headericons2"></div></a>
+              <a href="cart.html"><div class="headericons2"><div class="iconcirclediv"><div class="iconcircle" id="iconcircle">1</div></div></div></a>
           </div>
       </div>
   </div>
@@ -253,6 +253,36 @@
       </div>
       </div>
       </div> 
-    <script src="./script.js"></script>
+    
   </body>
+  <script>
+
+let cartItems = [];
+    function addToCart(productId, price, name, image) {
+      let itemExists = false;
+      let total = 0;
+      const product = {productId:productId, price:price, name:name, image:image}
+      cartItems.forEach((item) => {
+  if (item.id === productId) {
+    itemExists.quantity += 1;
+    itemExists = true;
+  }
+});
+
+if (!itemExists) {
+  cartItems.push(product);
+}
+localStorage.setItem("cartItems", JSON.stringify(cartItems));
+updateCart();
+    }
+    const hamburger = () =>{
+    const nav = document.getElementById(("nav"))
+    nav.classList.toggle("open")
+  }
+  document.getElementById("hamburger").addEventListener("click", hamburger)
+
+  const cartItem = JSON.parse(localStorage.getItem("cartItems"));
+
+  document.getElementById('iconcircle').innerText = cartItem.length
+  </script>
 </html>
