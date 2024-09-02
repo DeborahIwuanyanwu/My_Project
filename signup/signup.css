@@ -63,13 +63,16 @@ body{
     justify-content: center;
 }
 .rightherologo{
-    width: 70px;
-    height: 30px;
-    background-color: chocolate;
-    margin-bottom: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  width: 80px;
+  height: 50px;
+  margin-bottom: 30px;
+  background-image: url(../myproject/projectimg/logo3-removebg-preview.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 h1 {
     font-size: 35px;
@@ -107,10 +110,10 @@ h1 {
     justify-content: center;
     border: none;
   }
-  .signinbutton:hover{
-    background-color: rgb(0, 140, 255);
+  .signupbutton:hover{
+    background-color: #5c3421;
     color: rgb(255, 255, 255);
-
+font-weight: bold;
 }
 .righthero h4{
     font-size: 12px;
@@ -131,9 +134,7 @@ h1 {
     justify-content: center;
 }
 .googlebutton:hover{
-    background-color: #5c3421;
-    color: white;
-    font-size: 12px;
+    font-size: 13px;
     font-weight: bold;
 }
 .googleimg{
@@ -160,5 +161,18 @@ h1 {
   @media (max-width: 480px){
     .lefthero{
       display: none;
+    }
+    .righthero{
+      width: 100%;
+    }
+    .firstinput{
+      width: 90%;
+    }
+    .signupbutton{
+      width: 92%;
+
+    }
+    .googlebutton{
+      width: 92%;
     }
   }

@@ -23,7 +23,7 @@ a{
   align-items: center;
 }
 .headerholder {
-  width: 92%;
+  width: 85%;
   height: 67px;
   display: flex;
   justify-content: space-between;
@@ -32,6 +32,7 @@ a{
 .headericons {
   width: 55px;
   gap: 10px;
+  /* background-color: brown; */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -81,17 +82,31 @@ a{
   text-decoration: none;
 }
 .logo {
-  width: 80px;
+  /* width: 220px; */
+   /* margin-right: 200px; */
+   margin-right: 50px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   font-weight: bold;
   color: #5c3421;
+}
+.logoimg{
+  width: 100px;
+  /* height: 100px; */
+  /* object-fit: cover;
+  object-position: center; */
+  display: flex;
+  align-items: center;
+}
+.logoimg img {
+  width: 80px;
+  height: 50px;
 }
 .nav ul {
   list-style: none;
   margin: 0;
-  padding: 0;
+  padding: 0; 
   display: flex;
   gap: 22px;
 }
@@ -151,7 +166,8 @@ a{
 
 .mainsectionholder {
   width: 85%;
-  margin-top: 40px;
+  margin-top: 30px;
+  margin-bottom: 30px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -471,6 +487,7 @@ a{
 }
 .exclusively{
   width: 100%;
+  color: black;
 }
 .exclusively h3{
   font-size: 18px;
@@ -484,6 +501,8 @@ a{
   width: 38%;
   height: 75%;
   /* background: beige; */
+  
+  color: black;
   display: flex;
   align-items: center;
 }
@@ -578,6 +597,9 @@ a{
   .nav.open {
     display: flex;
     justify-content: center;
+  }
+  .logo{
+    margin-left: 80px;
   }
   .footerpage{
     width: 100%;

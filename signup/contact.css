@@ -31,6 +31,7 @@ a{
 .headericons {
   width: 55px;
   gap: 10px;
+  /* background-color: brown; */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -80,17 +81,31 @@ a{
   text-decoration: none;
 }
 .logo {
-  width: 80px;
+  /* width: 220px; */
+   /* margin-right: 200px; */
+   margin-right: 50px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   font-weight: bold;
   color: #5c3421;
+}
+.logoimg{
+  width: 100px;
+  /* height: 100px; */
+  /* object-fit: cover;
+  object-position: center; */
+  display: flex;
+  align-items: center;
+}
+.logoimg img {
+  width: 80px;
+  height: 50px;
 }
 .nav ul {
   list-style: none;
   margin: 0;
-  padding: 0;
+  padding: 0; 
   display: flex;
   gap: 22px;
 }
@@ -106,6 +121,9 @@ a{
 }
 .nav ul li a:hover {
   border-bottom: 1px solid #fff;
+}
+.logo{
+  margin-left: 80px;
 }
 .hamburger {
   width: 60px;
@@ -735,7 +753,6 @@ button {
     top: 67px;
     left: 0;
     background-color: #d8c09c;
-
   }
   .nav ul {
     display: flex;
@@ -755,6 +772,9 @@ button {
     display: flex;
     justify-content: center;
   }
+  .logo{
+    margin-left: 80px;
+  }
   .heropage {
     width: 100%;
     height: auto;
@@ -768,6 +788,7 @@ button {
   }
   .heroholder {
     margin-top: 20px;
+    margin-bottom: 30px;
     width: 100%;
     display: flex;
     flex-direction: column;

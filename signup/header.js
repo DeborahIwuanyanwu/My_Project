@@ -7,3 +7,5 @@ const hamburger = () =>{
   const cartItem = JSON.parse(localStorage.getItem("cartItems"));
 
   document.getElementById('iconcircle').innerText = cartItem.length
+
+  

@@ -32,7 +32,7 @@ a{
   height: 70px;
   background-color: rgba(255, 255, 255, 0.25);
   -webkit-backdrop-filter: blur(4px);
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(2px);
   /* border: 1px solid rgba(255,255,255,0.125); */
   display: flex;
   justify-content: center;
@@ -1530,11 +1530,7 @@ button {
     justify-content: center;
   }
   .logo{
-    margin-left: 100px;
-  }
-  .logoimg img{
-    width: 60px;
-    height: 40px;
+    margin-left: 80px;
   }
   .firstsection {
     width: 100%;
@@ -1713,7 +1709,7 @@ button {
     display: none;
   }
   .cards {
-    width: 205px;
+    width: 190px;
     height: 300px;
     border-radius: 3px;
     display: flex;
@@ -1750,7 +1746,7 @@ button {
   }
 
   .cards2 {
-    width: 205px;
+    width: 190px;
     height: 300px;
     border-radius: 3px;
     display: flex;
@@ -1785,7 +1781,7 @@ button {
     margin-top: 5px;
   }
   .cards3 {
-    width: 205px;
+    width: 190px;
     height: 300px;
     border-radius: 3px;
     display: flex;
@@ -1820,7 +1816,7 @@ button {
     margin-top: 5px;
   }
   .cards4 {
-    width: 205px;
+    width: 190px;
     height: 300px;
     border-radius: 3px;
     display: flex;
@@ -1855,7 +1851,7 @@ button {
     margin-top: 5px;
   }
   .cards5 {
-    width: 205px;
+    width: 190px;
     height: 300px;
     border-radius: 3px;
     display: flex;
@@ -1887,7 +1883,7 @@ button {
     margin-top: 5px;
   }
   .cards6 {
-    width: 205px;
+    width: 190px;
     height: 300px;
     border-radius: 3px;
     display: flex;
@@ -1901,7 +1897,6 @@ button {
     display: flex;
     align-items: center;
     justify-content: center;
-
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -2103,7 +2098,7 @@ button {
     font-weight: 500;
   }
   .leftcardtext h3 {
-    font-size: 20px;
+    font-size: 23px;
   }
   .leftcardimgholder {
     display: flex;
@@ -2166,11 +2161,12 @@ button {
     justify-content: center;
   }
   .assorted p {
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 500;
+    color: white;
   }
   .assorted h2 {
-    font-size: 16px;
+    font-size: 20px;
   }
 }
 
@@ -2191,9 +2187,7 @@ button {
     margin-bottom: 20px;
   }
   .footerproductholder {
-    /* margin-top: 15px; */
-    padding-bottom: 30px;
-    margin-bottom: 10px;
+    margin-top: 15px;
     width: 100%;
     border-bottom: 1px solid #333;
   }
