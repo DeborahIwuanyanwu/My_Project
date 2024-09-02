@@ -463,7 +463,7 @@ border: none;
 }
 .fifthsectionholder {
   width: 85%;
-  height: 500px;
+  height: 400px;
   gap: 5px;
   display: flex;
   align-items: center;
@@ -471,9 +471,8 @@ border: none;
 }
 .fifthleft {
   width: 50%;
-  height: 97%;
-  border-top-left-radius: 50px;
-  border-bottom-right-radius: 50px;
+  height: 88%;
+border-radius: 15px;
   background-image: url(../myproject/projectimg/shoe-design_1164846-20002.jpeg);
   background-repeat: no-repeat;
   background-position: center;
@@ -481,9 +480,8 @@ border: none;
 }
 .fifthright {
   width: 50%;
-  height: 97%;
-  border-top-right-radius: 50px;
-  border-bottom-left-radius: 50px;
+  height: 89%;
+  border-radius: 15px;
   background-image: url(../myproject/projectimg/groom-accessories-belt-watches-wooden-background_180731-515.jpeg);
   background-repeat: no-repeat;
   background-position: center;
@@ -525,10 +523,10 @@ border: none;
   
 }
 .footerlogoimg{
-  width: 100px;
-  height: 40px;
+  width:65px;
+  height: 50px;
   margin-bottom: 10px;
-  background-image: url(../myproject/projectimg/hand-drawn-clothing-store-logo-design_23-2149577874.avif);
+  background-image: url(../myproject/projectimg/logo3-removebg-preview.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
