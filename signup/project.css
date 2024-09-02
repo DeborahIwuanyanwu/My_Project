@@ -98,14 +98,13 @@ a{
   text-decoration: none;
 }
 .logo {
-  /* width: 220px; */
-   /* margin-right: 200px; */
-   margin-right: 50px;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  font-weight: bold;
-  color: #5c3421;
+  width: 220px;
+  /* background-color: green; */
+     margin-right: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-weight: bold;
 }
 .logoimg{
   width: 100px;
@@ -1501,7 +1500,7 @@ button {
   cursor: pointer;
   border: none;
 }
-@media (max-width: 480px) {
+@media (max-width: 500px) {
   .nav {
     display: none;
     width: 78%;
@@ -1587,7 +1586,7 @@ button {
     font-weight: 100;
   }
 }
-@media (max-width: 480px) {
+@media (max-width: 500px) {
   .secondsection {
     /* background-color: #e09f7d; */
     width: 100%;
@@ -1614,9 +1613,7 @@ button {
     justify-content: center;
     align-items: center;
   }
-  .browsecat {
-    /* background-color: green; */
-  }
+
   .browse {
     font-size: 25px;
   }
@@ -1693,6 +1690,7 @@ button {
     justify-content: space-between;
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
     /* background-color: palegoldenrod; */
     margin-top: 15px;
   }
