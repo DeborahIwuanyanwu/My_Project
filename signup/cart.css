@@ -83,12 +83,12 @@ a{
   text-decoration: none;
 }
 .logo {
-  width: 210px;
+  width: 150px;
   /* background-color: green; */
      margin-right: 50px;
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: center;
     font-weight: bold;
 }
 .logoimg{
@@ -124,7 +124,7 @@ a{
   border-bottom: 1px solid #fff;
 }
 .hamburger {
-  width: 60px;
+  width: 80px;
   display: none;
   align-items: center;
   justify-content: center;
@@ -457,12 +457,24 @@ a{
   }
 
 @media (max-width: 480px) {
+  .header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .headerholder{
+    width: 92%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
   .nav {
     display: none;
     width: 78%;
     height: calc(100vh - 70px);
     position: fixed;
-    top: 67px;
+    top: 70px;
     left: 0;
     background-color: #d8c09c;
   }
@@ -479,6 +491,7 @@ a{
   }
   .hamburger {
     display: flex;
+
   }
   .nav.open {
     display: flex;

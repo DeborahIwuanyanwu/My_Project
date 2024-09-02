@@ -81,7 +81,7 @@ a{
   text-decoration: none;
 }
 .logo {
-  width: 220px;
+  width: 100px;
 /* background-color: green; */
    margin-right: 50px;
   display: flex;
@@ -91,10 +91,6 @@ a{
 }
 .logoimg{
   width: 100px;
-  /* height: 100px; */
-  /* object-fit: cover;
-  object-position: center; */
-  display: flex;
   align-items: center;
 }
 .logoimg img {
@@ -749,7 +745,7 @@ button {
     width: 78%;
     height: calc(100vh - 70px);
     position: fixed;
-    top: 67px;
+    top: 70px;
     left: 0;
     background-color: #d8c09c;
   }
@@ -766,6 +762,7 @@ button {
   }
   .hamburger {
     display: flex;
+    margin-right: 30px;
   }
   .nav.open {
     display: flex;
@@ -773,6 +770,20 @@ button {
   }
   .logo{
     margin-left: 80px;
+  }
+  .header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .headerholder{ 
+    width: 92%;
+    padding-right: 30px;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .heropage {
     width: 100%;

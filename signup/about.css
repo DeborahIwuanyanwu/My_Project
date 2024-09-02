@@ -82,7 +82,7 @@ a{
   text-decoration: none;
 }
 .logo {
-  width: 220px;
+  width: 150px;
   /* background-color: green; */
      margin-right: 50px;
     display: flex;
@@ -679,7 +679,7 @@ border-radius: 15px;
       width: 78%;
       height: calc(100vh - 70px);
       position: fixed;
-      top: 67px;
+      top: 70px;
       left: 0;
       background-color: #d8c09c;
     }

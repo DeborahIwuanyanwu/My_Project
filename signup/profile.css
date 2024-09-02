@@ -16,7 +16,6 @@ a{
   background-color: rgba(255, 255, 255, 0.25);
   -webkit-backdrop-filter: blur(4px);
   backdrop-filter: blur(2px);
-  /* border: 1px solid rgba(255,255,255,0.125); */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -525,7 +524,7 @@ a{
         width: 78%;
         height: calc(100vh - 70px);
         position: fixed;
-        top: 67px;
+        top: 70px;
         left: 0;
         background-color: #d8c09c;
     
@@ -549,8 +548,26 @@ a{
         justify-content: center;
       }
 .logo{
-  margin-left: 80px;
+  margin-left: 95px;
 }
+  .header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .headerholder{ 
+    width: 96%;
+    margin-right: px;
+    padding-right: 20px;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .headericons{
+    margin-left: 20px;
+  }
       .herosection{
         width: 100%;
         height: auto;
