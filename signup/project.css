@@ -1629,43 +1629,55 @@ button {
     display: none;
   }
   .catgories {
+    width: 100px;
+    height: 110px;
     display: flex;
     align-items: center;
   }
   .Accessories {
     padding-top: 3px;
+    padding-bottom: 5px;
     font-size: 15px;
   }
   .catgories2 {
+    width: 100px;
+    height: 110px;
     display: flex;
     align-items: center;
   }
   .Bags {
     padding-top: 3px;
+    padding-bottom: 5px;
     font-size: 15px;
   }
   .catgories3 {
+    width: 100px;
+    height: 110px;
     display: flex;
     align-items: center;
   }
   .Dresses {
     padding-top: 3px;
     font-size: 15px;
+    padding-bottom: 5px;
   }
   .catgories4 {
+    width: 100px;
+    height: 110px;
     display: flex;
     align-items: center;
   }
   .TShirt {
     padding-top: 3px;
     font-size: 15px;
+    padding-bottom: 5px;
   }
   .subsecondholder {
     width: 92%;
   }
   .subsecondholderheader {
     width: 100%;
-    margin-top: 60px;
+    margin-top: 20px;
     /* background-color: aquamarine; */
     display: flex;
     justify-content: center;
@@ -1688,7 +1700,7 @@ button {
     font-size: 14px;
   }
   .cardcontainer {
-    justify-content: space-between;
+    justify-content: center;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
