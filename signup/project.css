@@ -15,13 +15,11 @@ a{
 .firstsection {
   width: 100%;
   height: 100vh;
-  margin-top: 15px;
-  font-family: "Open Sans", sans-serif;
-  background-image: url(../myproject/projectimg/happy-couple-enjoying-day-out-together_972324-33033.jpeg);
+  background-color: #d3b9a8    ;
+  /* background-image: url(../myproject/projectimg/happy-couple-enjoying-day-out-together_972324-33033.jpeg); */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  /* background-color: aqua; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -30,10 +28,9 @@ a{
 .header {
   width: 100%;
   height: 70px;
-  background-color: rgba(255, 255, 255, 0.25);
   -webkit-backdrop-filter: blur(4px);
+  border: 1px solid #643924;
   backdrop-filter: blur(2px);
-  /* border: 1px solid rgba(255,255,255,0.125); */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -46,8 +43,7 @@ a{
   align-items: center;
 }
 .headericons {
-  width: 55px;
-  gap: 10px;
+  width: 75px;
   /* background-color: brown; */
   display: flex;
   justify-content: space-between;
@@ -98,32 +94,27 @@ a{
   text-decoration: none;
 }
 .logo {
-  width: 220px;
-  /* background-color: green; */
-     margin-right: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    font-weight: bold;
+width: 200px;
+height: 50px;
+/* background-color: gold; */
+display: flex;
+align-items: center;
 }
 .logoimg{
   width: 100px;
-  /* height: 100px; */
-  /* object-fit: cover;
-  object-position: center; */
-  display: flex;
-  align-items: center;
+ height: 100%;
 }
 .logoimg img {
-  width: 80px;
-  height: 50px;
+  width: 100%;
+  height: 100%;
 }
 .nav ul {
+  width: 300px; 
   list-style: none;
   margin: 0;
   padding: 0; 
   display: flex;
-  gap: 22px;
+  justify-content: space-between;
 }
 
 .nav ul li a {
@@ -133,11 +124,8 @@ a{
   font-weight: bold;
   opacity: 1;
   padding: 2px;
-  border-radius: 3px;
 }
-.nav ul li a:hover {
-  border-bottom: 1px solid #fff;
-}
+
 .hamburger {
   width: 60px;
   display: none;
@@ -151,8 +139,8 @@ a{
 
 .Heropage {
   width: 100%;
-  height: 100%;
-  font-family: "Open Sans", sans-serif;
+  height: 570px;
+  
   display: flex;
   align-items: center;
   justify-content: center;
@@ -160,12 +148,11 @@ a{
 .heroholder {
   width: 92%;
   height: 100%;
-  /* background-color: bisque; */
   display: flex;
   align-items: center;
 }
 .leftherocard {
-  width: 600px;
+  width: 50%;
   /* background-color: blue; */
   margin-top: 25px;
   color: white;
@@ -173,25 +160,56 @@ a{
 .mberhero {
   font-size: 20px;
   font-weight: 500;
+  color: #222;
+}
+.specialtext{
+  width: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .specialoffers {
   font-size: 50px;
   margin-top: 15px;
+  color: #222;
 }
 .italics {
   font-style: italic;
   font-size: 25px;
   margin-top: 5px;
+  color: #333333;
   margin-bottom: 20px;
   font-weight: 100;
 }
 .herobutton {
   width: 200px;
   height: 50px;
-  background-color: #c69d67;
+  background-color: #5c3421;
   color: white;
   border: none;
 }
+.rightherocard{
+  width: 50%;
+  height: 100%; 
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+.rightheroholder{
+  width: 100%;
+  height: 100%; 
+  padding: 0;
+  margin: 0;
+}
+.rightheroholder img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  /* height: 100%; */
+
+}
+
 .secondsection {
   background-color: #5c3421;
   width: 100%;
@@ -946,7 +964,6 @@ a{
   height: 100%;
   margin-top: 50px;
   margin-bottom: 50px;
-  /* background: white; */
   display: flex;
 }
 .thirdleft {
@@ -1176,12 +1193,22 @@ a{
   justify-content: space-between;
   align-items: center;
 }
-.fourthheaderholder h1 {
+.limited{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.limited h1 {
   font-size: 28px;
   color: white;
 }
-.fourthheaderholder h3 {
-  font-size: 14px;
+.collec{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.collec h3 {
+  font-size: 15px;
   font-weight: 500;
   color: #ffffff;
   border-bottom: 1px solid #ffffff;
@@ -1217,7 +1244,7 @@ a{
   height: 600px;
   border-radius: 45px;
   display: flex;
-  background-color: #f3f1cd;
+  background-color: #fff;
   background-image: url(../myproject/projectimg/download\ \(1\).png);
   background-position: center;
   background-repeat: no-repeat;
@@ -1279,7 +1306,7 @@ a{
   width: 350px;
   height: 280px;
   border-radius: 30px;
-  background-color: #f8f7d9;
+  background-color: #fff;
   display: flex;
   align-items: flex-end;
   background-image: url(../myproject/projectimg/download\ \(3\).png);
@@ -1305,7 +1332,7 @@ a{
   width: 350px;
   height: 280px;
   border-radius: 30px;
-  background-color: #f8f7d9;
+  background-color: #fff;
   display: flex;
   align-items: flex-end;
   background-image: url(../myproject/projectimg/download\ \(2\).png);
@@ -1322,7 +1349,7 @@ a{
   width: 100%;
   height: 280px;
   border-radius: 30px;
-  background-color: #f8f7d9;
+  background-color: #fff;
   display: flex;
   align-items: flex-end;
   background-image: url(../myproject/projectimg/close-up-person-wearing-high-heels_1145069-6359-removebg-preview.png);
@@ -1501,9 +1528,21 @@ button {
   border: none;
 }
 @media (max-width: 500px) {
+  .header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .headerholder{
+    width: 92%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
   .nav {
     display: none;
-    width: 78%;
+    /* width: 78%; */
     height: calc(100vh - 70px);
     position: fixed;
     top: 70px;
@@ -1514,68 +1553,81 @@ button {
     display: flex;
     flex-direction: column;
     padding-top: 20px;
+    margin: 0;
   }
   .nav ul li {
     text-align: center;
-    width: 300px;
     padding: 10px 0;
     border-bottom: 1px solid #3d1b0b;
   }
-  .hamburger {
+  .logo{
+display: flex;
+align-items: center;
+justify-content: center;
+/* background-color: gold; */
+  }
+  .logoimg{
+    width: 80px;
     display: flex;
-    width: 90px;
+align-items: center;
+justify-content: center;
+  }
+  .hamburger {
+      display: flex;
+  }
+  .hamburger img{
+    padding-right: 37px;
   }
   .nav.open {
     display: flex;
     justify-content: center;
   }
-  .logo{
-    margin-left: 80px;
-  }
   .firstsection {
     width: 100%;
-    height: 100vh;
-    margin-top: 15px;
-    background-image: url(../myproject/projectimg/happy-couple-enjoying-day-out-together_972324-33033.jpeg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    /* background-color: aqua; */
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
   }
-  .heroholder {
+  .Heropage{
     width: 92%;
     height: 100%;
-    margin-top: 30px;
+  }
+  .heroholder {
+    width: 100%;
+    margin-top: 20px;
     /* background-color: bisque; */
     display: flex;
     align-items: center;
+    flex-direction: column;
   }
-  .leftherocard {
-    width: 300px;
-    /* background-color: blue; */
-
-    color: white;
+  .leftherocard{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
   }
+ 
   .mberhero {
     font-size: 18px;
     font-weight: 500;
   }
+  .specialtext{
+    width: 380px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   .specialoffers {
     font-size: 33px;
-    margin-top: 15px;
   }
-  /* .herotext{
-  font-size: 18px;
-  margin-top: 10px;
-  } */
+ 
   .herobutton {
     width: 180px;
     height: 50px;
-    background-color: brown;
     color: white;
     border: none;
   }
@@ -1585,6 +1637,16 @@ button {
     margin-top: 5px;
     margin-bottom: 23px;
     font-weight: 100;
+  }
+  .rightherocard{
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+  }
+  .rightheroholder{
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
   }
 }
 @media (max-width: 500px) {
@@ -1620,8 +1682,9 @@ button {
   }
   .categoriesdiv {
     width: 100%;
-    margin-right: 15px;
     display: flex;
+    align-items: center;
+    justify-content: center;
     /* background: red; */
   }
   .catgories6 {
@@ -1942,23 +2005,22 @@ button {
     align-items: center;
   }
   .thirdleft {
-    width: 90%;
+    width: 100%;
     height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
   }
   .thirdleftholder {
-    width: 330px;
+    width: 100%;
     /* margin-top: 20px;
     margin-bottom: 20px; */
     display: flex;
     align-items: center;
     justify-content: center;
   }
-
   .thirdleftholder h1 {
-    font-size: 40px;
+    font-size: 44px;
     text-align: center;
   }
   .thirdleftholder h3 {
@@ -2021,6 +2083,9 @@ button {
   .quotetext h3 {
     font-size: 17px;
   }
+  .assorted h2{
+font-size: 50px;
+  }
   .Emily {
     width: 200px;
     margin-right: -12px;
@@ -2052,18 +2117,31 @@ button {
   .fourthheader {
     width: 92%;
     height: 40px;
-    margin-bottom: 10px;
-    /* background-color: blue; */
-  }
-  .fourthheaderholder {
+    margin-bottom: 5px;
     display: flex;
     align-items: center;
+    justify-content: center;
   }
-  .fourthheaderholder h1 {
+  .fourthheaderholder {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .limited{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+  }
+  .limited h1{
     font-size: 25px;
   }
-  .fourthheaderholder h3 {
-    font-size: 16px;
+  .collec{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .collec h3 {
+    font-size: 15px;
   }
   .fourthrightdowncard {
     display: none;
@@ -2110,7 +2188,7 @@ button {
     font-weight: 500;
   }
   .leftcardtext h3 {
-    font-size: 23px;
+    font-size: 25px;
   }
   .leftcardimgholder {
     display: flex;
@@ -2175,10 +2253,10 @@ button {
   .assorted p {
     font-size: 16px;
     font-weight: 500;
-    color: white;
+    color: #f4f4f4;
   }
   .assorted h2 {
-    font-size: 20px;
+    font-size: 25px;
   }
 }
 
